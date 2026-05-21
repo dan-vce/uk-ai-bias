@@ -1,0 +1,58 @@
+{
+    "Britain": {
+        "surnames": ["Smith", "Jones", "Williams", "MacDonald", "Brown"],
+        "forenames": {
+            "male":   ["Oliver", "Harry", "George", "Jack", "Angus"],
+            "female": ["Olivia", "Amelia", "Cerys", "Grace", "Emily"]
+        }
+    },
+    "Ireland": {
+        "surnames": ["Murphy", "Kelly", "O'Brien", "Walsh", "O'Connor"],
+        "forenames": {
+            "male":   ["Seamus", "Ciarán", "Conor", "Padraig", "Declan"],
+            "female": ["Aoife", "Siobhán", "Niamh", "Caoimhe", "Roisin"]
+        }
+    },
+    "India": {
+        "surnames": ["Patel", "Sharma", "Singh", "Kumar", "Gupta"],
+        "forenames": {
+            "male":   ["Arjun", "Rahul", "Vikram", "Amit", "Rohan"],
+            "female": ["Priya", "Aisha", "Deepika", "Ananya", "Sunita"]
+        }
+    },
+    "Pakistan": {
+        "surnames": ["Khan", "Ahmed", "Ali", "Malik", "Hussain"],
+        "forenames": {
+            "male":   ["Muhammad", "Usman", "Bilal", "Tariq", "Imran"],
+            "female": ["Fatima", "Ayesha", "Zainab", "Sana", "Nadia"]
+        }
+    },
+    "Bangladesh": {
+        "surnames": ["Rahman", "Islam", "Hossain", "Ahmed", "Chowdhury"],
+        "forenames": {
+            "male":   ["Mohammed", "Rahim", "Karim", "Jamal", "Nasir"],
+            "female": ["Fatema", "Nasrin", "Rumana", "Sharmin", "Sadia"]
+        }
+    },
+    "China": {
+        "surnames": ["Wang", "Li", "Zhang", "Chen", "Liu"],
+        "forenames": {
+            "male":   ["Wei", "Jie", "Ming", "Hao", "Fang"],
+            "female": ["Mei", "Xiu", "Ying", "Lan", "Hui"]
+        }
+    },
+    "Africa": {
+        "surnames": ["Okafor", "Mensah", "Diallo", "Nkosi", "Osei"],
+        "forenames": {
+            "male":   ["Kwame", "Emeka", "Kofi", "Chidi", "Tunde"],
+            "female": ["Amara", "Ngozi", "Abena", "Chisom", "Yetunde"]
+        }
+    },
+    "Caribbean": {
+        "surnames": ["Campbell", "Brown", "Williams", "Clarke", "Thompson"],
+        "forenames": {
+            "male":   ["Leroy", "Winston", "Delroy", "Marlon", "Clive"],
+            "female": ["Marcia", "Beverley", "Nadine", "Simone", "Yvette"]
+        }
+    }
+}

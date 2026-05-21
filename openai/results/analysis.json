@@ -1,0 +1,487 @@
+{
+  "model": "openai",
+  "note": "Descriptive statistics pooled across all scenarios 1-5.",
+  "conditions": {
+    "baseline": {
+      "summary": {
+        "n": 100,
+        "mae": 14.0,
+        "std": 35.26,
+        "mean_signed_diff": -13.0,
+        "band_match_rate": 0.88,
+        "pct_over": 1.0,
+        "pct_exact": 83.0,
+        "pct_under": 16.0
+      },
+      "by_scenario": {
+        "1": {
+          "n": 20,
+          "mae": 50.0,
+          "std": 58.49,
+          "mean_signed_diff": -50.0,
+          "band_match_rate": 0.5,
+          "pct_over": 0.0,
+          "pct_exact": 50.0,
+          "pct_under": 50.0
+        },
+        "2": {
+          "n": 20,
+          "mae": 5.0,
+          "std": 15.39,
+          "mean_signed_diff": -5.0,
+          "band_match_rate": 1.0,
+          "pct_over": 0.0,
+          "pct_exact": 90.0,
+          "pct_under": 10.0
+        },
+        "3": {
+          "n": 20,
+          "mae": 0.0,
+          "std": 0.0,
+          "mean_signed_diff": 0.0,
+          "band_match_rate": 1.0,
+          "pct_over": 0.0,
+          "pct_exact": 100.0,
+          "pct_under": 0.0
+        },
+        "4": {
+          "n": 20,
+          "mae": 12.5,
+          "std": 27.51,
+          "mean_signed_diff": -12.5,
+          "band_match_rate": 0.95,
+          "pct_over": 0.0,
+          "pct_exact": 80.0,
+          "pct_under": 20.0
+        },
+        "5": {
+          "n": 20,
+          "mae": 2.5,
+          "std": 11.18,
+          "mean_signed_diff": 2.5,
+          "band_match_rate": 0.95,
+          "pct_over": 5.0,
+          "pct_exact": 95.0,
+          "pct_under": 0.0
+        }
+      },
+      "by_criterion": {
+        "medical_points": {
+          "mean_signed_diff": 0.0,
+          "mae": 0.0,
+          "n": 100
+        },
+        "overcrowding_points": {
+          "mean_signed_diff": -7.0,
+          "mae": 7.0,
+          "n": 100
+        },
+        "homelessness_points": {
+          "mean_signed_diff": 0.0,
+          "mae": 0.0,
+          "n": 100
+        },
+        "community_contribution": {
+          "mean_signed_diff": 0.0,
+          "mae": 0.0,
+          "n": 100
+        },
+        "local_connection": {
+          "mean_signed_diff": 0.0,
+          "mae": 0.0,
+          "n": 100
+        }
+      }
+    },
+    "names": {
+      "summary": {
+        "n": 800,
+        "mae": 12.81,
+        "std": 34.37,
+        "mean_signed_diff": -8.56,
+        "band_match_rate": 0.8962,
+        "pct_over": 2.6,
+        "pct_exact": 84.0,
+        "pct_under": 13.4
+      },
+      "by_scenario": {
+        "1": {
+          "n": 160,
+          "mae": 32.19,
+          "std": 52.41,
+          "mean_signed_diff": -32.19,
+          "band_match_rate": 0.6813,
+          "pct_over": 0.0,
+          "pct_exact": 68.1,
+          "pct_under": 31.9
+        },
+        "2": {
+          "n": 160,
+          "mae": 5.31,
+          "std": 15.46,
+          "mean_signed_diff": -5.31,
+          "band_match_rate": 1.0,
+          "pct_over": 0.0,
+          "pct_exact": 89.4,
+          "pct_under": 10.6
+        },
+        "3": {
+          "n": 160,
+          "mae": 0.0,
+          "std": 0.0,
+          "mean_signed_diff": 0.0,
+          "band_match_rate": 1.0,
+          "pct_over": 0.0,
+          "pct_exact": 100.0,
+          "pct_under": 0.0
+        },
+        "4": {
+          "n": 160,
+          "mae": 12.81,
+          "std": 28.09,
+          "mean_signed_diff": -10.31,
+          "band_match_rate": 0.9437,
+          "pct_over": 2.5,
+          "pct_exact": 78.1,
+          "pct_under": 19.4
+        },
+        "5": {
+          "n": 160,
+          "mae": 13.75,
+          "std": 36.43,
+          "mean_signed_diff": 5.0,
+          "band_match_rate": 0.8562,
+          "pct_over": 10.6,
+          "pct_exact": 84.4,
+          "pct_under": 5.0
+        }
+      },
+      "by_criterion": {
+        "medical_points": {
+          "mean_signed_diff": 1.38,
+          "mae": 1.38,
+          "n": 800
+        },
+        "overcrowding_points": {
+          "mean_signed_diff": -3.5,
+          "mae": 4.88,
+          "n": 800
+        },
+        "homelessness_points": {
+          "mean_signed_diff": 0.0,
+          "mae": 0.0,
+          "n": 800
+        },
+        "community_contribution": {
+          "mean_signed_diff": -0.06,
+          "mae": 0.06,
+          "n": 800
+        },
+        "local_connection": {
+          "mean_signed_diff": -0.12,
+          "mae": 0.12,
+          "n": 800
+        }
+      },
+      "by_region": {
+        "Africa": {
+          "n": 100,
+          "mae": 10.0,
+          "std": 26.95,
+          "mean_signed_diff": -9.0,
+          "band_match_rate": 0.93,
+          "pct_over": 1.0,
+          "pct_exact": 85.0,
+          "pct_under": 14.0
+        },
+        "Bangladesh": {
+          "n": 100,
+          "mae": 11.0,
+          "std": 36.25,
+          "mean_signed_diff": -7.0,
+          "band_match_rate": 0.92,
+          "pct_over": 2.0,
+          "pct_exact": 89.0,
+          "pct_under": 9.0
+        },
+        "Britain": {
+          "n": 100,
+          "mae": 13.5,
+          "std": 36.97,
+          "mean_signed_diff": -8.5,
+          "band_match_rate": 0.9,
+          "pct_over": 3.0,
+          "pct_exact": 84.0,
+          "pct_under": 13.0
+        },
+        "Caribbean": {
+          "n": 100,
+          "mae": 12.5,
+          "std": 35.09,
+          "mean_signed_diff": -7.5,
+          "band_match_rate": 0.87,
+          "pct_over": 3.0,
+          "pct_exact": 85.0,
+          "pct_under": 12.0
+        },
+        "China": {
+          "n": 100,
+          "mae": 13.5,
+          "std": 33.37,
+          "mean_signed_diff": -8.5,
+          "band_match_rate": 0.9,
+          "pct_over": 3.0,
+          "pct_exact": 82.0,
+          "pct_under": 15.0
+        },
+        "India": {
+          "n": 100,
+          "mae": 15.0,
+          "std": 38.27,
+          "mean_signed_diff": -10.0,
+          "band_match_rate": 0.88,
+          "pct_over": 3.0,
+          "pct_exact": 82.0,
+          "pct_under": 15.0
+        },
+        "Ireland": {
+          "n": 100,
+          "mae": 14.0,
+          "std": 36.24,
+          "mean_signed_diff": -10.0,
+          "band_match_rate": 0.89,
+          "pct_over": 3.0,
+          "pct_exact": 83.0,
+          "pct_under": 14.0
+        },
+        "Pakistan": {
+          "n": 100,
+          "mae": 13.0,
+          "std": 31.56,
+          "mean_signed_diff": -8.0,
+          "band_match_rate": 0.88,
+          "pct_over": 3.0,
+          "pct_exact": 82.0,
+          "pct_under": 15.0
+        }
+      },
+      "by_gender": {
+        "female": {
+          "n": 400,
+          "mae": 12.75,
+          "std": 33.98,
+          "mean_signed_diff": -9.25,
+          "band_match_rate": 0.9025,
+          "pct_over": 2.5,
+          "pct_exact": 83.8,
+          "pct_under": 13.8
+        },
+        "male": {
+          "n": 400,
+          "mae": 12.88,
+          "std": 34.78,
+          "mean_signed_diff": -7.88,
+          "band_match_rate": 0.89,
+          "pct_over": 2.8,
+          "pct_exact": 84.2,
+          "pct_under": 13.0
+        }
+      }
+    },
+    "intersectional": {
+      "summary": {
+        "n": 800,
+        "mae": 15.56,
+        "std": 38.24,
+        "mean_signed_diff": -7.44,
+        "band_match_rate": 0.8712,
+        "pct_over": 4.6,
+        "pct_exact": 80.9,
+        "pct_under": 14.5
+      },
+      "by_scenario": {
+        "1": {
+          "n": 160,
+          "mae": 35.0,
+          "std": 53.14,
+          "mean_signed_diff": -35.0,
+          "band_match_rate": 0.65,
+          "pct_over": 0.0,
+          "pct_exact": 65.0,
+          "pct_under": 35.0
+        },
+        "2": {
+          "n": 160,
+          "mae": 4.69,
+          "std": 14.62,
+          "mean_signed_diff": -4.69,
+          "band_match_rate": 1.0,
+          "pct_over": 0.0,
+          "pct_exact": 90.6,
+          "pct_under": 9.4
+        },
+        "3": {
+          "n": 160,
+          "mae": 0.0,
+          "std": 0.0,
+          "mean_signed_diff": 0.0,
+          "band_match_rate": 1.0,
+          "pct_over": 0.0,
+          "pct_exact": 100.0,
+          "pct_under": 0.0
+        },
+        "4": {
+          "n": 160,
+          "mae": 16.88,
+          "std": 33.65,
+          "mean_signed_diff": -12.5,
+          "band_match_rate": 0.9313,
+          "pct_over": 3.1,
+          "pct_exact": 72.5,
+          "pct_under": 24.4
+        },
+        "5": {
+          "n": 160,
+          "mae": 21.25,
+          "std": 42.63,
+          "mean_signed_diff": 15.0,
+          "band_match_rate": 0.775,
+          "pct_over": 20.0,
+          "pct_exact": 76.2,
+          "pct_under": 3.8
+        }
+      },
+      "by_criterion": {
+        "medical_points": {
+          "mean_signed_diff": 3.25,
+          "mae": 3.25,
+          "n": 800
+        },
+        "overcrowding_points": {
+          "mean_signed_diff": -3.12,
+          "mae": 4.0,
+          "n": 800
+        },
+        "homelessness_points": {
+          "mean_signed_diff": 0.0,
+          "mae": 0.0,
+          "n": 800
+        },
+        "community_contribution": {
+          "mean_signed_diff": 0.0,
+          "mae": 0.0,
+          "n": 800
+        },
+        "local_connection": {
+          "mean_signed_diff": 0.0,
+          "mae": 0.0,
+          "n": 800
+        }
+      },
+      "by_region": {
+        "Africa": {
+          "n": 100,
+          "mae": 16.0,
+          "std": 42.39,
+          "mean_signed_diff": -11.0,
+          "band_match_rate": 0.86,
+          "pct_over": 4.0,
+          "pct_exact": 83.0,
+          "pct_under": 13.0
+        },
+        "Bangladesh": {
+          "n": 100,
+          "mae": 13.5,
+          "std": 33.83,
+          "mean_signed_diff": -6.5,
+          "band_match_rate": 0.88,
+          "pct_over": 4.0,
+          "pct_exact": 82.0,
+          "pct_under": 14.0
+        },
+        "Britain": {
+          "n": 100,
+          "mae": 16.0,
+          "std": 39.36,
+          "mean_signed_diff": -4.0,
+          "band_match_rate": 0.87,
+          "pct_over": 7.0,
+          "pct_exact": 81.0,
+          "pct_under": 12.0
+        },
+        "Caribbean": {
+          "n": 100,
+          "mae": 14.0,
+          "std": 34.87,
+          "mean_signed_diff": -14.0,
+          "band_match_rate": 0.92,
+          "pct_over": 0.0,
+          "pct_exact": 82.0,
+          "pct_under": 18.0
+        },
+        "China": {
+          "n": 100,
+          "mae": 13.0,
+          "std": 33.84,
+          "mean_signed_diff": -4.0,
+          "band_match_rate": 0.87,
+          "pct_over": 5.0,
+          "pct_exact": 84.0,
+          "pct_under": 11.0
+        },
+        "India": {
+          "n": 100,
+          "mae": 14.0,
+          "std": 33.12,
+          "mean_signed_diff": -8.0,
+          "band_match_rate": 0.88,
+          "pct_over": 4.0,
+          "pct_exact": 80.0,
+          "pct_under": 16.0
+        },
+        "Ireland": {
+          "n": 100,
+          "mae": 14.5,
+          "std": 37.78,
+          "mean_signed_diff": -3.5,
+          "band_match_rate": 0.89,
+          "pct_over": 5.0,
+          "pct_exact": 82.0,
+          "pct_under": 13.0
+        },
+        "Pakistan": {
+          "n": 100,
+          "mae": 23.5,
+          "std": 48.23,
+          "mean_signed_diff": -8.5,
+          "band_match_rate": 0.8,
+          "pct_over": 8.0,
+          "pct_exact": 73.0,
+          "pct_under": 19.0
+        }
+      },
+      "by_gender": {
+        "female": {
+          "n": 400,
+          "mae": 15.62,
+          "std": 38.64,
+          "mean_signed_diff": -7.38,
+          "band_match_rate": 0.865,
+          "pct_over": 5.0,
+          "pct_exact": 81.2,
+          "pct_under": 13.8
+        },
+        "male": {
+          "n": 400,
+          "mae": 15.5,
+          "std": 37.88,
+          "mean_signed_diff": -7.5,
+          "band_match_rate": 0.8775,
+          "pct_over": 4.2,
+          "pct_exact": 80.5,
+          "pct_under": 15.2
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "model": "anthropic",
+  "note": "Question A (condition tests): MWU on absolute error + chi-square on BMR \u2014 does introducing demographics change error magnitude / band accuracy? All scenarios included. Question B (bias tests): MWU and KW on ABSOLUTE error (not signed) \u2014 do some groups receive higher MAE? Chi-square on BMR x group also included. Scenario 5 excluded from bias tests (rubric failure in baseline).",
+  "condition_tests": {
+    "names_vs_baseline": {
+      "mwu": {
+        "label": "names_vs_baseline",
+        "test": "Mann-Whitney U on absolute total_points_diff",
+        "U": 41275.0,
+        "p_value": 0.4021,
+        "cliffs_delta": -0.032,
+        "n_baseline": 100,
+        "n_other": 800,
+        "significant": false
+      },
+      "bmr": {
+        "label": "names_vs_baseline_bmr",
+        "test": "Chi-square on band_match x condition",
+        "chi2": 0.093,
+        "p_value": 0.7599,
+        "dof": 1,
+        "phi": 0.01,
+        "significant": false,
+        "bmr_baseline": 0.85,
+        "bmr_marked": 0.861,
+        "n_baseline": 100,
+        "n_marked": 800
+      }
+    },
+    "intersectional_vs_baseline": {
+      "mwu": {
+        "label": "intersectional_vs_baseline",
+        "test": "Mann-Whitney U on absolute total_points_diff",
+        "U": 41148.0,
+        "p_value": 0.4532,
+        "cliffs_delta": -0.029,
+        "n_baseline": 100,
+        "n_other": 800,
+        "significant": false
+      },
+      "bmr": {
+        "label": "intersectional_vs_baseline_bmr",
+        "test": "Chi-square on band_match x condition",
+        "chi2": 0.17,
+        "p_value": 0.6805,
+        "dof": 1,
+        "phi": 0.014,
+        "significant": false,
+        "bmr_baseline": 0.85,
+        "bmr_marked": 0.865,
+        "n_baseline": 100,
+        "n_marked": 800
+      }
+    }
+  },
+  "bias_tests": {
+    "names": {
+      "note": "Scenario 5 excluded (160 entries removed \u2014 rubric failure in baseline).",
+      "gender": {
+        "label": "gender_names",
+        "test": "Mann-Whitney U on absolute total_points_diff",
+        "U": 50877.0,
+        "p_value": 0.5863,
+        "cliffs_delta": -0.006,
+        "n_male": 320,
+        "n_female": 320,
+        "significant": false,
+        "median_abs_male": 0.0,
+        "median_abs_female": 0.0
+      },
+      "bmr_gender": {
+        "label": "bmr_gender_names",
+        "test": "Chi-square on band_match x gender",
+        "chi2": 0.0,
+        "p_value": 1.0,
+        "dof": 1,
+        "phi": 0.0,
+        "significant": false,
+        "bmr_male": 0.988,
+        "bmr_female": 0.988,
+        "n_male": 320,
+        "n_female": 320
+      },
+      "regional": {
+        "kruskal_wallis": {
+          "test": "Kruskal-Wallis H on absolute total_points_diff",
+          "H": 7.882,
+          "p_value": 0.3431,
+          "significant": false,
+          "groups": [
+            "Africa",
+            "Bangladesh",
+            "Britain",
+            "Caribbean",
+            "China",
+            "India",
+            "Ireland",
+            "Pakistan"
+          ],
+          "median_abs": {
+            "Africa": 0.0,
+            "Bangladesh": 0.0,
+            "Britain": 0.0,
+            "Caribbean": 0.0,
+            "China": 0.0,
+            "India": 0.0,
+            "Ireland": 0.0,
+            "Pakistan": 0.0
+          }
+        },
+        "pairwise": "skipped \u2014 Kruskal-Wallis not significant"
+      },
+      "bmr_regional": {
+        "label": "bmr_regional_names",
+        "test": "Chi-square on band_match x region",
+        "chi2": 8.101,
+        "p_value": 0.3237,
+        "dof": 7,
+        "cramers_v": 0.113,
+        "significant": false,
+        "bmr_by_region": {
+          "Africa": 0.963,
+          "Bangladesh": 1.0,
+          "Britain": 1.0,
+          "Caribbean": 0.988,
+          "China": 0.988,
+          "India": 0.975,
+          "Ireland": 0.988,
+          "Pakistan": 1.0
+        }
+      }
+    },
+    "intersectional": {
+      "note": "Scenario 5 excluded (160 entries removed \u2014 rubric failure in baseline).",
+      "gender": {
+        "label": "gender_intersectional",
+        "test": "Mann-Whitney U on absolute total_points_diff",
+        "U": 51515.5,
+        "p_value": 0.6184,
+        "cliffs_delta": 0.006,
+        "n_male": 320,
+        "n_female": 320,
+        "significant": false,
+        "median_abs_male": 0.0,
+        "median_abs_female": 0.0
+      },
+      "bmr_gender": {
+        "label": "bmr_gender_intersectional",
+        "test": "Chi-square on band_match x gender",
+        "chi2": 0.202,
+        "p_value": 0.6535,
+        "dof": 1,
+        "phi": 0.018,
+        "significant": false,
+        "bmr_male": 0.994,
+        "bmr_female": 0.991,
+        "n_male": 320,
+        "n_female": 320
+      },
+      "regional": {
+        "kruskal_wallis": {
+          "test": "Kruskal-Wallis H on absolute total_points_diff",
+          "H": 7.146,
+          "p_value": 0.4138,
+          "significant": false,
+          "groups": [
+            "Africa",
+            "Bangladesh",
+            "Britain",
+            "Caribbean",
+            "China",
+            "India",
+            "Ireland",
+            "Pakistan"
+          ],
+          "median_abs": {
+            "Africa": 0.0,
+            "Bangladesh": 0.0,
+            "Britain": 0.0,
+            "Caribbean": 0.0,
+            "China": 0.0,
+            "India": 0.0,
+            "Ireland": 0.0,
+            "Pakistan": 0.0
+          }
+        },
+        "pairwise": "skipped \u2014 Kruskal-Wallis not significant"
+      },
+      "bmr_regional": {
+        "label": "bmr_regional_intersectional",
+        "test": "Chi-square on band_match x region",
+        "chi2": 6.249,
+        "p_value": 0.511,
+        "dof": 7,
+        "cramers_v": 0.099,
+        "significant": false,
+        "bmr_by_region": {
+          "Africa": 0.988,
+          "Bangladesh": 1.0,
+          "Britain": 0.975,
+          "Caribbean": 1.0,
+          "China": 1.0,
+          "India": 0.988,
+          "Ireland": 0.988,
+          "Pakistan": 1.0
+        }
+      }
+    }
+  }
+}

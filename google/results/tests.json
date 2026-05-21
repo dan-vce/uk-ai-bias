@@ -1,0 +1,404 @@
+{
+  "model": "google",
+  "note": "Question A (condition tests): MWU on absolute error + chi-square on BMR \u2014 does introducing demographics change error magnitude / band accuracy? All scenarios included. Question B (bias tests): MWU and KW on ABSOLUTE error (not signed) \u2014 do some groups receive higher MAE? Chi-square on BMR x group also included. Scenario 5 excluded from bias tests (rubric failure in baseline).",
+  "condition_tests": {
+    "names_vs_baseline": {
+      "mwu": {
+        "label": "names_vs_baseline",
+        "test": "Mann-Whitney U on absolute total_points_diff",
+        "U": 13844.5,
+        "p_value": 0.0,
+        "cliffs_delta": 0.653,
+        "n_baseline": 100,
+        "n_other": 799,
+        "significant": true
+      },
+      "bmr": {
+        "label": "names_vs_baseline_bmr",
+        "test": "Chi-square on band_match x condition",
+        "chi2": 151.785,
+        "p_value": 0.0,
+        "dof": 1,
+        "phi": 0.411,
+        "significant": true,
+        "bmr_baseline": 0.94,
+        "bmr_marked": 0.307,
+        "n_baseline": 100,
+        "n_marked": 799
+      }
+    },
+    "intersectional_vs_baseline": {
+      "mwu": {
+        "label": "intersectional_vs_baseline",
+        "test": "Mann-Whitney U on absolute total_points_diff",
+        "U": 7080.5,
+        "p_value": 0.0,
+        "cliffs_delta": 0.823,
+        "n_baseline": 100,
+        "n_other": 800,
+        "significant": true
+      },
+      "bmr": {
+        "label": "intersectional_vs_baseline_bmr",
+        "test": "Chi-square on band_match x condition",
+        "chi2": 296.549,
+        "p_value": 0.0,
+        "dof": 1,
+        "phi": 0.574,
+        "significant": true,
+        "bmr_baseline": 0.94,
+        "bmr_marked": 0.156,
+        "n_baseline": 100,
+        "n_marked": 800
+      }
+    }
+  },
+  "bias_tests": {
+    "names": {
+      "note": "Scenario 5 excluded (159 entries removed \u2014 rubric failure in baseline).",
+      "gender": {
+        "label": "gender_names",
+        "test": "Mann-Whitney U on absolute total_points_diff",
+        "U": 50633.0,
+        "p_value": 0.8033,
+        "cliffs_delta": -0.011,
+        "n_male": 320,
+        "n_female": 320,
+        "significant": false,
+        "median_abs_male": 100.0,
+        "median_abs_female": 100.0
+      },
+      "bmr_gender": {
+        "label": "bmr_gender_names",
+        "test": "Chi-square on band_match x gender",
+        "chi2": 0.007,
+        "p_value": 0.9349,
+        "dof": 1,
+        "phi": 0.003,
+        "significant": false,
+        "bmr_male": 0.372,
+        "bmr_female": 0.375,
+        "n_male": 320,
+        "n_female": 320
+      },
+      "regional": {
+        "kruskal_wallis": {
+          "test": "Kruskal-Wallis H on absolute total_points_diff",
+          "H": 40.146,
+          "p_value": 0.0,
+          "significant": true,
+          "groups": [
+            "Africa",
+            "Bangladesh",
+            "Britain",
+            "Caribbean",
+            "China",
+            "India",
+            "Ireland",
+            "Pakistan"
+          ],
+          "median_abs": {
+            "Africa": 125.0,
+            "Bangladesh": 75.0,
+            "Britain": 75.0,
+            "Caribbean": 150.0,
+            "China": 100.0,
+            "India": 75.0,
+            "Ireland": 25.0,
+            "Pakistan": 75.0
+          }
+        },
+        "pairwise": {
+          "n_comparisons": 28,
+          "correction": "Bonferroni",
+          "n_significant": 5,
+          "n_total": 28,
+          "comparisons": [
+            {
+              "pair": "Africa_vs_Ireland",
+              "U": 4476.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0002,
+              "significant_bonferroni": true,
+              "cliffs_delta": 0.399,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Britain_vs_Caribbean",
+              "U": 1905.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0002,
+              "significant_bonferroni": true,
+              "cliffs_delta": -0.405,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Britain_vs_Ireland",
+              "U": 4081.0,
+              "p_value": 0.0018,
+              "p_bonferroni": 0.0499,
+              "significant_bonferroni": true,
+              "cliffs_delta": 0.275,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Caribbean_vs_Ireland",
+              "U": 5000.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0,
+              "significant_bonferroni": true,
+              "cliffs_delta": 0.562,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Caribbean_vs_Pakistan",
+              "U": 4253.0,
+              "p_value": 0.0002,
+              "p_bonferroni": 0.0057,
+              "significant_bonferroni": true,
+              "cliffs_delta": 0.329,
+              "n_a": 80,
+              "n_b": 80
+            }
+          ]
+        }
+      },
+      "bmr_regional": {
+        "label": "bmr_regional_names",
+        "test": "Chi-square on band_match x region",
+        "chi2": 76.335,
+        "p_value": 0.0,
+        "dof": 7,
+        "cramers_v": 0.345,
+        "significant": true,
+        "bmr_by_region": {
+          "Africa": 0.25,
+          "Bangladesh": 0.5,
+          "Britain": 0.25,
+          "Caribbean": 0.025,
+          "China": 0.487,
+          "India": 0.5,
+          "Ireland": 0.5,
+          "Pakistan": 0.475
+        }
+      }
+    },
+    "intersectional": {
+      "note": "Scenario 5 excluded (160 entries removed \u2014 rubric failure in baseline).",
+      "gender": {
+        "label": "gender_intersectional",
+        "test": "Mann-Whitney U on absolute total_points_diff",
+        "U": 51677.5,
+        "p_value": 0.8304,
+        "cliffs_delta": 0.009,
+        "n_male": 320,
+        "n_female": 320,
+        "significant": false,
+        "median_abs_male": 100.0,
+        "median_abs_female": 100.0
+      },
+      "bmr_gender": {
+        "label": "bmr_gender_intersectional",
+        "test": "Chi-square on band_match x gender",
+        "chi2": 0.176,
+        "p_value": 0.6751,
+        "dof": 1,
+        "phi": 0.017,
+        "significant": false,
+        "bmr_male": 0.178,
+        "bmr_female": 0.166,
+        "n_male": 320,
+        "n_female": 320
+      },
+      "regional": {
+        "kruskal_wallis": {
+          "test": "Kruskal-Wallis H on absolute total_points_diff",
+          "H": 105.918,
+          "p_value": 0.0,
+          "significant": true,
+          "groups": [
+            "Africa",
+            "Bangladesh",
+            "Britain",
+            "Caribbean",
+            "China",
+            "India",
+            "Ireland",
+            "Pakistan"
+          ],
+          "median_abs": {
+            "Africa": 75.0,
+            "Bangladesh": 75.0,
+            "Britain": 150.0,
+            "Caribbean": 100.0,
+            "China": 50.0,
+            "India": 100.0,
+            "Ireland": 100.0,
+            "Pakistan": 100.0
+          }
+        },
+        "pairwise": {
+          "n_comparisons": 28,
+          "correction": "Bonferroni",
+          "n_significant": 13,
+          "n_total": 28,
+          "comparisons": [
+            {
+              "pair": "Africa_vs_Britain",
+              "U": 960.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0,
+              "significant_bonferroni": true,
+              "cliffs_delta": -0.7,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Africa_vs_Caribbean",
+              "U": 2064.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.001,
+              "significant_bonferroni": true,
+              "cliffs_delta": -0.355,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Africa_vs_Ireland",
+              "U": 2069.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0011,
+              "significant_bonferroni": true,
+              "cliffs_delta": -0.353,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Bangladesh_vs_Britain",
+              "U": 960.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0,
+              "significant_bonferroni": true,
+              "cliffs_delta": -0.7,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Bangladesh_vs_Caribbean",
+              "U": 2054.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0008,
+              "significant_bonferroni": true,
+              "cliffs_delta": -0.358,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Bangladesh_vs_Ireland",
+              "U": 2059.5,
+              "p_value": 0.0,
+              "p_bonferroni": 0.001,
+              "significant_bonferroni": true,
+              "cliffs_delta": -0.356,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Britain_vs_Caribbean",
+              "U": 4600.5,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0,
+              "significant_bonferroni": true,
+              "cliffs_delta": 0.438,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Britain_vs_China",
+              "U": 5560.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0,
+              "significant_bonferroni": true,
+              "cliffs_delta": 0.738,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Britain_vs_India",
+              "U": 4490.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0001,
+              "significant_bonferroni": true,
+              "cliffs_delta": 0.403,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Britain_vs_Ireland",
+              "U": 4190.0,
+              "p_value": 0.0003,
+              "p_bonferroni": 0.0075,
+              "significant_bonferroni": true,
+              "cliffs_delta": 0.309,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Britain_vs_Pakistan",
+              "U": 4610.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0,
+              "significant_bonferroni": true,
+              "cliffs_delta": 0.441,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "Caribbean_vs_China",
+              "U": 4518.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0,
+              "significant_bonferroni": true,
+              "cliffs_delta": 0.412,
+              "n_a": 80,
+              "n_b": 80
+            },
+            {
+              "pair": "China_vs_Ireland",
+              "U": 1893.0,
+              "p_value": 0.0,
+              "p_bonferroni": 0.0001,
+              "significant_bonferroni": true,
+              "cliffs_delta": -0.408,
+              "n_a": 80,
+              "n_b": 80
+            }
+          ]
+        }
+      },
+      "bmr_regional": {
+        "label": "bmr_regional_intersectional",
+        "test": "Chi-square on band_match x region",
+        "chi2": 69.686,
+        "p_value": 0.0,
+        "dof": 7,
+        "cramers_v": 0.33,
+        "significant": true,
+        "bmr_by_region": {
+          "Africa": 0.25,
+          "Bangladesh": 0.25,
+          "Britain": 0.0,
+          "Caribbean": 0.0,
+          "China": 0.275,
+          "India": 0.287,
+          "Ireland": 0.037,
+          "Pakistan": 0.275
+        }
+      }
+    }
+  }
+}

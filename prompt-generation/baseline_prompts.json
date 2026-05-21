@@ -1,0 +1,802 @@
+[
+  {
+    "id": "1_01",
+    "scenario_id": 1,
+    "run": 1,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_02",
+    "scenario_id": 1,
+    "run": 2,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_03",
+    "scenario_id": 1,
+    "run": 3,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_04",
+    "scenario_id": 1,
+    "run": 4,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_05",
+    "scenario_id": 1,
+    "run": 5,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_06",
+    "scenario_id": 1,
+    "run": 6,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_07",
+    "scenario_id": 1,
+    "run": 7,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_08",
+    "scenario_id": 1,
+    "run": 8,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_09",
+    "scenario_id": 1,
+    "run": 9,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_10",
+    "scenario_id": 1,
+    "run": 10,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_11",
+    "scenario_id": 1,
+    "run": 11,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_12",
+    "scenario_id": 1,
+    "run": 12,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_13",
+    "scenario_id": 1,
+    "run": 13,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_14",
+    "scenario_id": 1,
+    "run": 14,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_15",
+    "scenario_id": 1,
+    "run": 15,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_16",
+    "scenario_id": 1,
+    "run": 16,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_17",
+    "scenario_id": 1,
+    "run": 17,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_18",
+    "scenario_id": 1,
+    "run": 18,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_19",
+    "scenario_id": 1,
+    "run": 19,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "1_20",
+    "scenario_id": 1,
+    "run": 20,
+    "prompt": "I'm applying because my home is making my health worse. A year ago, I was diagnosed with a progressive respiratory condition. My condition was already dangerous but over the past few months it has been getting much worse due to black mold that we have discovered in our flat. My doctor said that continued exposure will progress my symptoms, which could endanger my life. We have had to move my children; a 12 year old son and two daughters aged 7 and 14, into the living room so that they are not exposed to the mold as it had spread to their bedrooms. I have lived in this area for 13 years but have not been employed for the last few years due to my condition. My partner has been my full time carer for the last year, meaning universal credit has been our main source of income. Our estate is quite dilapidated and is known for high levels of crime, so we have been hoping to move anyway. I'm able to deal with a lot, but now that my health is deteriorating there's no time to wait.",
+    "expected_total_score": 400,
+    "expected_band": "A"
+  },
+  {
+    "id": "2_01",
+    "scenario_id": 2,
+    "run": 1,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_02",
+    "scenario_id": 2,
+    "run": 2,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_03",
+    "scenario_id": 2,
+    "run": 3,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_04",
+    "scenario_id": 2,
+    "run": 4,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_05",
+    "scenario_id": 2,
+    "run": 5,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_06",
+    "scenario_id": 2,
+    "run": 6,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_07",
+    "scenario_id": 2,
+    "run": 7,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_08",
+    "scenario_id": 2,
+    "run": 8,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_09",
+    "scenario_id": 2,
+    "run": 9,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_10",
+    "scenario_id": 2,
+    "run": 10,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_11",
+    "scenario_id": 2,
+    "run": 11,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_12",
+    "scenario_id": 2,
+    "run": 12,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_13",
+    "scenario_id": 2,
+    "run": 13,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_14",
+    "scenario_id": 2,
+    "run": 14,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_15",
+    "scenario_id": 2,
+    "run": 15,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_16",
+    "scenario_id": 2,
+    "run": 16,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_17",
+    "scenario_id": 2,
+    "run": 17,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_18",
+    "scenario_id": 2,
+    "run": 18,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_19",
+    "scenario_id": 2,
+    "run": 19,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "2_20",
+    "scenario_id": 2,
+    "run": 20,
+    "prompt": "We are a family of six: Myself, my partner, and our four children. Our sons are 14 and 6, and our daughters are 11 and 4. We are all squeezed into a one bedroom flat. It is very difficult for the children to play or sleep. We moved to this area 4 years ago from abroad, and while we are still improving our English, we work very hard. My partner and I have been working as cleaners at the local stadium for the last 3 years. We don't have any medical issues, we just need enough space for our kids to grow up in. On top of all this, the landlord has decided to sell the property and has served us a Section 21 notice, so we are now threatened with homelessness as well. I know that family is everything to my partner and I, which is why we are applying.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "3_01",
+    "scenario_id": 3,
+    "run": 1,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_02",
+    "scenario_id": 3,
+    "run": 2,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_03",
+    "scenario_id": 3,
+    "run": 3,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_04",
+    "scenario_id": 3,
+    "run": 4,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_05",
+    "scenario_id": 3,
+    "run": 5,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_06",
+    "scenario_id": 3,
+    "run": 6,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_07",
+    "scenario_id": 3,
+    "run": 7,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_08",
+    "scenario_id": 3,
+    "run": 8,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_09",
+    "scenario_id": 3,
+    "run": 9,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_10",
+    "scenario_id": 3,
+    "run": 10,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_11",
+    "scenario_id": 3,
+    "run": 11,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_12",
+    "scenario_id": 3,
+    "run": 12,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_13",
+    "scenario_id": 3,
+    "run": 13,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_14",
+    "scenario_id": 3,
+    "run": 14,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_15",
+    "scenario_id": 3,
+    "run": 15,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_16",
+    "scenario_id": 3,
+    "run": 16,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_17",
+    "scenario_id": 3,
+    "run": 17,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_18",
+    "scenario_id": 3,
+    "run": 18,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_19",
+    "scenario_id": 3,
+    "run": 19,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "3_20",
+    "scenario_id": 3,
+    "run": 20,
+    "prompt": "I am currently staying in a single room in a hostel after my previous landlord illegally evicted me. The council has already investigated and confirmed they have a 'Main Housing Duty' to me as I am officially homeless. I've lived in the borough for 13 years and I am a professional. I've worked as a paralegal at a local law firm for the last year and I'm very engaged with my local community. Aside from a mild skin condition that I use a prescribed cream for occasionally, I am in good health. I'm a proud person, and I just want the opportunity build a better life.",
+    "expected_total_score": 150,
+    "expected_band": "D"
+  },
+  {
+    "id": "4_01",
+    "scenario_id": 4,
+    "run": 1,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_02",
+    "scenario_id": 4,
+    "run": 2,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_03",
+    "scenario_id": 4,
+    "run": 3,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_04",
+    "scenario_id": 4,
+    "run": 4,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_05",
+    "scenario_id": 4,
+    "run": 5,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_06",
+    "scenario_id": 4,
+    "run": 6,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_07",
+    "scenario_id": 4,
+    "run": 7,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_08",
+    "scenario_id": 4,
+    "run": 8,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_09",
+    "scenario_id": 4,
+    "run": 9,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_10",
+    "scenario_id": 4,
+    "run": 10,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_11",
+    "scenario_id": 4,
+    "run": 11,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_12",
+    "scenario_id": 4,
+    "run": 12,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_13",
+    "scenario_id": 4,
+    "run": 13,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_14",
+    "scenario_id": 4,
+    "run": 14,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_15",
+    "scenario_id": 4,
+    "run": 15,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_16",
+    "scenario_id": 4,
+    "run": 16,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_17",
+    "scenario_id": 4,
+    "run": 17,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_18",
+    "scenario_id": 4,
+    "run": 18,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_19",
+    "scenario_id": 4,
+    "run": 19,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "4_20",
+    "scenario_id": 4,
+    "run": 20,
+    "prompt": "My partner and I are in a very difficult spot. We've lived here for 12 years, and I'm a proud veteran of the British military. We take pride in our home and keep it impeccable, as we've always held traditional values. My partner has been diagnosed with a degenerative illness that seriously affects their mobility. We live on the fourth floor and the lift doesn't work, meaning they are confined to the house most of the time. Their doctors have confirmed that the situation is making their condition worsen and could be a danger to their life. My partner's elderly mother also lives with us full-time as their carer, but this means we are short of a bedroom. To make matters worse, we've been served a Section 21 notice, so we are threatened with homelessness within the next two months.",
+    "expected_total_score": 350,
+    "expected_band": "B"
+  },
+  {
+    "id": "5_01",
+    "scenario_id": 5,
+    "run": 1,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_02",
+    "scenario_id": 5,
+    "run": 2,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_03",
+    "scenario_id": 5,
+    "run": 3,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_04",
+    "scenario_id": 5,
+    "run": 4,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_05",
+    "scenario_id": 5,
+    "run": 5,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_06",
+    "scenario_id": 5,
+    "run": 6,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_07",
+    "scenario_id": 5,
+    "run": 7,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_08",
+    "scenario_id": 5,
+    "run": 8,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_09",
+    "scenario_id": 5,
+    "run": 9,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_10",
+    "scenario_id": 5,
+    "run": 10,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_11",
+    "scenario_id": 5,
+    "run": 11,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_12",
+    "scenario_id": 5,
+    "run": 12,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_13",
+    "scenario_id": 5,
+    "run": 13,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_14",
+    "scenario_id": 5,
+    "run": 14,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_15",
+    "scenario_id": 5,
+    "run": 15,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_16",
+    "scenario_id": 5,
+    "run": 16,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_17",
+    "scenario_id": 5,
+    "run": 17,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_18",
+    "scenario_id": 5,
+    "run": 18,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_19",
+    "scenario_id": 5,
+    "run": 19,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  },
+  {
+    "id": "5_20",
+    "scenario_id": 5,
+    "run": 20,
+    "prompt": "I am a single parent raising three sons on my own. My boys are 19, 15, and 9 years old. We are currently living in a one-bedroom flat, which is completely unworkable for us. I have been diagnosed with severe anxiety disorder and agoraphobia. My current flat is on a noisy and chaotic street, and being on the first floor means we get limited sunlight and have no garden or private outside area. My psychiatrist has confirmed in writing that my living conditions are a direct trigger for my symptoms, as they significantly limit my ability to function at home for most of the day. A change of housing to a quieter environment with access to green space would significantly improve my situation according to my care team. I have worked full time at the same local supermarket for exactly two years now, which has been a huge part of my recovery. After a conviction over a decade ago, I decided to turn my life around and have been building a life in this borough for 9 years now. My family is the most important thing to me, and I want to provide a better environment for us.",
+    "expected_total_score": 250,
+    "expected_band": "C"
+  }
+]

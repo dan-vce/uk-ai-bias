@@ -1,0 +1,4002 @@
+[
+  {
+    "custom_id": "1_01",
+    "scenario_id": 1,
+    "run": 1,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical: The applicant's current housing (black mold contamination) is a direct contributory factor to worsening a life-threatening respiratory condition, with doctor confirmation that continued exposure will endanger their life (200 points). Overcrowding: Household requires 4 bedrooms (1 couple + unpaired 12yr boy + unpaired 7yr girl + unpaired 14yr girl). Only 1 bedroom is safe and liveable as children's bedrooms are contaminated with mold and children have been moved to living room (not counted as bedroom). Deficit of 3 bedrooms = 150 points. Homelessness: No main housing duty determination or Section 21 notice mentioned (0 points). Community contribution: Applicant unemployed for several years due to condition; partner is full-time carer (0 points). Local connection: 13 years continuous residency exceeds 10-year threshold (50 points). Total 400 points qualifies as Band A (Emergency)."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_02",
+    "scenario_id": 1,
+    "run": 2,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical (200 points): Category A - Progressive respiratory condition is life-threatening and directly worsened by black mold exposure in the current home; doctor confirms continued exposure will endanger life. Overcrowding (150 points): Household requires 4 bedrooms (1 couple + 1 unpaired boy aged 12 + 1 unpaired girl aged 14 + 1 unpaired girl aged 7). Only 1 bedroom is safe and available (children's bedrooms affected by mold, children relocated to living room). Shortfall of 3 bedrooms. Homelessness (0 points): No main housing duty determination or threat of homelessness documented. Community Contribution (0 points): Not employed for several years due to health condition; does not meet 2-year continuous employment threshold. Local Connection (50 points): 13 years continuous residency in the area exceeds 10-year requirement."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_03",
+    "scenario_id": 1,
+    "run": 3,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical award (200 points): progressive respiratory condition documented as life-threatening, with current housing (black mold) being a direct contributory factor to worsening symptoms and endangerment of life. Overcrowding award (150 points): household requires 4 bedrooms (1 couple + 3 children: 7-year-old daughter, 12-year-old son, 14-year-old daughter), but currently has access to only 1 safe/liveable bedroom as children have been displaced to living room due to mold; lacking 3+ bedrooms. Local connection award (50 points): 13 years continuous residency in the area. No homelessness duty determined and no qualifying employment record."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_04",
+    "scenario_id": 1,
+    "run": 4,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical criterion applies: progressive respiratory condition is directly worsened by black mold exposure in current housing, with doctor confirming risk of life-threatening progression. Bedrooms required: 4 (1 for adult couple, 1 for each of the three children: 12-year-old boy, 14-year-old girl, 7-year-old girl). Bedrooms available: 1 (children's bedrooms are unsafe due to mold and therefore not counted as liveable). Overcrowding deficit: 3 bedrooms. No homelessness criterion met (no main housing duty determination or threatened homelessness notice mentioned). No continuous employment in last 2 years due to health condition. Local connection criterion met with 13 years continuous residency in the borough."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_05",
+    "scenario_id": 1,
+    "run": 5,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical condition applies: progressive respiratory condition with life-threatening risk directly worsened by black mold in current housing, as confirmed by doctor. Overcrowding assessed at 150 points (3+ bedrooms lacking): household of 5 requires 4 bedrooms (1 couple + 3 unpaired children across age groups) but only 1 safe, liveable bedroom is available, as children's bedrooms are unsafe due to mold contamination and children are displaced to living room. Local connection criterion met: 13 years continuous residency. No homelessness duty determination or employment history noted."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_06",
+    "scenario_id": 1,
+    "run": 6,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Criterion 1 (Medical): 200 points - Category A applies. The applicant's current housing (black mold) is a direct contributory factor to the worsening of their life-threatening progressive respiratory condition. Doctor has confirmed continued exposure will endanger life. Criterion 2 (Overcrowding): 150 points - Household requires 4 bedrooms (1 for adult couple, 1 each for the unpaired children aged 12, 14, and 7). Only 1 bedroom is safe and liveable (parents' room; children's bedrooms are contaminated with mold and therefore not available). Lacking 3 bedrooms = 150 points. Criterion 3 (Homelessness): 0 points - No Main Housing Duty or threat of homelessness indicated. Criterion 4 (Community Contribution): 0 points - Applicant has not been employed for several years due to health condition. Criterion 5 (Local Connection): 50 points - 13 years continuous residency exceeds the 10-year requirement. Total: 400 points places applicant in Band A (Emergency)."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_07",
+    "scenario_id": 1,
+    "run": 7,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical condition (Category A): Progressive respiratory condition with doctor confirmation that continued mold exposure will worsen symptoms and endanger life - direct causal link to current housing. Overcrowding (150 points): Household of 5 people requires 4 bedrooms (1 adult couple + 3 children: one pair aged 7 and 14 of different sex counting as 2 bedrooms, plus 12-year-old counting as 1 bedroom); only 1 safe, liveable bedroom available (children displaced to living room due to mold contamination of their bedrooms); lacking 3 bedrooms. Homelessness: Not currently in Main Housing Duty determination nor threatened with homelessness (Section 21 notice). Community Contribution: No employment record provided; applicant out of work for years due to health condition. Local Connection (50 points): 13 years continuous residency exceeds the 10-year requirement."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_08",
+    "scenario_id": 1,
+    "run": 8,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical condition (Category A): Applicant has a progressive, life-threatening respiratory condition that is directly worsening due to black mold in the current property, with medical advice that continued exposure will endanger life. Overcrowding: Household requires 4 bedrooms (1 for adult couple, 3 for unpaired children aged 12, 14, and 7), but only 1 bedroom is safe and liveable (mold has contaminated children's bedrooms, forcing them to living room). Lacks 3 bedrooms = 150 points. Homelessness: No main housing duty or threat of homelessness indicated. Community contribution: No 2+ years continuous employment (unemployed due to health condition). Local connection: 13 years continuous residency exceeds 10-year threshold = 50 points."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_09",
+    "scenario_id": 1,
+    "run": 9,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical condition: Progressive respiratory condition directly worsened by black mold exposure with doctor's confirmation of life-threatening risk. Overcrowding calculated as 3 bedrooms required (1 couple + 1 shared bedroom for children aged 7 and 12 + 1 for 14-year-old) minus 1 safe/liveable bedroom available (mold-affected bedrooms cannot be counted) = 2 bedrooms lacking = 100 points. No homelessness duty determined or threatened homelessness identified. No continuous 2+ year employment in borough. Long-term residency of 13 years meets local connection criterion."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": -50,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": -50,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_10",
+    "scenario_id": 1,
+    "run": 10,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical criterion applies: progressive respiratory condition is life-threatening and directly worsened by black mold exposure in current housing, with medical evidence of escalating danger. Overcrowding assessed at 3 bedrooms lacking (4 required: 1 couple + 1 for 12-year-old son + 1 for 14-year-old daughter + 1 for 7-year-old daughter; only 1 available as children's bedrooms are contaminated and unusable). No homelessness or threatened homelessness criterion met. No community contribution points (unemployed for several years due to condition). Strong local connection established (13 years continuous residency). Total score of 400 points places application in Emergency band."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_11",
+    "scenario_id": 1,
+    "run": 11,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Criterion 1 (Medical): 200 points awarded under Category A. The applicant has a progressive, life-threatening respiratory condition, and the current housing (specifically black mold contamination) is directly contributing to its worsening. Medical advice confirms continued exposure endangers life. Criterion 2 (Overcrowding): 150 points awarded. Bedrooms required: 4 (1 for adult couple, 1 for son aged 12, 1 each for daughters aged 7 and 14). Bedrooms available: approximately 1 (children's bedrooms are contaminated by mold and unsafe; children sleeping in living room). Lacking 3+ bedrooms = 150 points. Criterion 3 (Homelessness): 0 points. No main housing duty determination or valid threatened homelessness notice mentioned. Criterion 4 (Community Contribution): 0 points. Applicant has not been employed for several years due to health condition; partner is full-time carer. Does not meet 2+ years continuous employment requirement. Criterion 5 (Local Connection): 50 points. Applicant has lived in the area for 13 years, exceeding the 10-year continuous residency threshold."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_12",
+    "scenario_id": 1,
+    "run": 12,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical (200 points): Applicant has a progressive respiratory condition diagnosed as life-threatening. Current housing with black mold directly contributes to worsening symptoms and poses risk to life, meeting Category A criteria. Overcrowding (150 points): Household of 5 people requires 4 bedrooms (1 couple + 1 for 12yo son + 1 for 7yo daughter + 1 for 14yo daughter). Only 1 bedroom is safe and habitable due to mold contamination; lacking 3+ bedrooms scores 150 points. Homelessness (0 points): No mention of main housing duty or threatened homelessness. Community Contribution (0 points): No 2+ years continuous employment within borough in recent years. Local Connection (50 points): 13 years continuous residency exceeds 10-year threshold. Total: 400 points places applicant in Band A (Emergency)."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_13",
+    "scenario_id": 1,
+    "run": 13,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical criteria met: applicant's current housing (black mold contamination) is a direct contributory factor to worsening of a life-threatening progressive respiratory condition. Severe overcrowding: 4 bedrooms required (1 for couple, 2 for children aged 12 and 14 of different sex, 1 for child aged 7) versus 1 safe and liveable bedroom available (children's bedrooms unsafe due to mold, therefore excluded). Strong local connection established through 13 years continuous residency. No points awarded for homelessness (not threatened or main housing duty) or community contribution (unemployed for several years due to condition). Critical health deterioration and severe overcrowding justify Band A priority."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_14",
+    "scenario_id": 1,
+    "run": 14,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical (200 points): Category A applies - applicant has a life-threatening progressive respiratory condition which is directly and significantly worsened by black mold in the current home, with medical confirmation that continued exposure will endanger life. Overcrowding (150 points): Household requires 4 bedrooms (1 adult couple + 1 for 12-year-old boy + 1 for 14-year-old girl + 1 for 7-year-old girl). Only 1 bedroom is safe and liveable (the applicant's/partner's), as children's bedrooms are contaminated with mold. This results in lacking 3 bedrooms. Homelessness (0 points): No indication of main housing duty or threatened homelessness. Community Contribution (0 points): Applicant has not been employed for several years due to health condition, not meeting the 2+ year continuous employment threshold. Local Connection (50 points): Applicant has resided in the area for 13 years, exceeding the 10-year continuous residency requirement."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_15",
+    "scenario_id": 1,
+    "run": 15,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical condition (200 points): Category A applies - applicant has a life-threatening progressive respiratory condition and the current housing (black mold contamination) is a direct contributory factor to worsening symptoms, with medical advice indicating continued exposure could be dangerous. Overcrowding (100 points): Household requires 3 bedrooms (1 for couple, 1 for 12-year-old boy and 14-year-old girl, 1 for 7-year-old girl). Only 1 safe, liveable bedroom is available as the children's bedrooms are contaminated with mold and unusable. This represents lacking 2 bedrooms. Homelessness (0 points): Applicant is currently housed and no threatened homelessness mentioned. Community contribution (0 points): No 2+ years continuous employment in borough (unemployed for several years due to health condition). Local connection (50 points): 13 years continuous residency in the area exceeds the 10-year requirement."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": -50,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": -50,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_16",
+    "scenario_id": 1,
+    "run": 16,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical criterion Category A applies: the applicant has a life-threatening progressive respiratory condition where current housing (black mold) is a direct contributory factor to worsening symptoms, with medical advice indicating continued exposure could endanger life. Overcrowding criterion: 4 bedrooms required (1 couple + 3 children requiring separate rooms by age/sex), but bedrooms are unsafe/uninhabitable due to mold spread, resulting in 3+ bedroom deficit (150 points). Homelessness criterion does not apply (applicant is housed, not threatened with homelessness). Community contribution does not apply (applicant and partner not employed). Local connection criterion applies (13 years continuous residency exceeds 10-year threshold)."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_17",
+    "scenario_id": 1,
+    "run": 17,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical points awarded: current housing (black mold) is a direct contributory factor to worsening of a life-threatening progressive respiratory condition, with medical advice confirming danger. Overcrowding points awarded: household requires 3 bedrooms (1 for couple, 1 for same-sex children pair aged 7 and 14, 1 for unpaired 12-year-old son), but only 1 safe and liveable bedroom is available (mold-affected bedrooms not counted), resulting in 2 bedrooms lacking. Local connection points awarded for 13 years continuous residency. No homelessness points: not currently homeless or threatened with homelessness. No community contribution points: unemployment due to health condition for several years, so insufficient continuous employment in borough."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": -50,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": -50,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_18",
+    "scenario_id": 1,
+    "run": 18,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical criterion applies: the applicant's progressive respiratory condition is life-threatening, and their doctor has confirmed that continued exposure to black mold in the current home will worsen symptoms and endanger life, making the housing a direct contributory factor. Overcrowding score: household requires 4 bedrooms (1 couple + 1 for single son aged 12 + 1 for single daughter aged 14 + 1 for daughter aged 7), but only 1 safe liveable bedroom is available (children's bedrooms contaminated by mold, now in living room which does not count). Lacking 3 bedrooms scores 150 points. No homelessness or threatened homelessness criterion met. No recent continuous employment for community contribution points. Local connection criterion met with 13 years continuous residency (50 points)."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_19",
+    "scenario_id": 1,
+    "run": 19,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical criterion Category A (200 points): Progressive respiratory condition directly worsened by black mold exposure in current home, with doctor confirming continued exposure could endanger life. Overcrowding criterion (150 points): Household requires 4 bedrooms (1 couple + 1 for 12-year-old boy + 1 for 14-year-old girl + 1 for 7-year-old girl). Only 1 safe, liveable bedroom is available (mold has spread to children's bedrooms, rendering them unsafe and unusable). Deficit of 3 bedrooms triggers highest overcrowding category. Homelessness criterion (0 points): No Main Housing Duty or Section 21 threat mentioned. Community contribution (0 points): No continuous employment for 2+ years due to health condition; partner is full-time carer. Local connection (50 points): 13 years continuous residency exceeds 10-year threshold."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "1_20",
+    "scenario_id": 1,
+    "run": 20,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical condition (Category A): Progressive respiratory condition with doctor confirmation that current housing (black mold exposure) is directly contributing to worsening of life-threatening symptoms. Overcrowding (150 points): 4 bedrooms required (1 couple + 1 son aged 12 + 1 daughter aged 14 + 1 daughter aged 7) minus 1 available bedroom = 3 bedrooms lacking. Homelessness (0 points): Currently housed, no Main Housing Duty or threatened homelessness mentioned. Community contribution (0 points): No continuous employment due to health condition. Local connection (50 points): 13 years continuous residency in area exceeds 10-year threshold."
+    },
+    "expected": {
+      "total_score": 400,
+      "band": "A",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_01",
+    "scenario_id": 2,
+    "run": 1,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 4 (1 for adult couple, 1 for unpaired son aged 14, 1 for unpaired daughter aged 11, 1 for pair of children under 10). Bedrooms available: 1. Overcrowding deficit of 3 bedrooms = 150 points. Section 21 notice served indicating threatened homelessness = 50 points. Both applicant and partner have 3 years continuous employment at local stadium (exceeds 2-year threshold) = 50 points. No medical issues identified = 0 points. Residency of 4 years does not meet 10-year local connection threshold = 0 points."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_02",
+    "scenario_id": 2,
+    "run": 2,
+    "model_response": {
+      "total_points": 200,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 100,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical: 0 points - applicant explicitly states no medical issues. Overcrowding: 100 points - household of 6 requires 3 bedrooms (1 couple + 1 for boys 14&6 + 1 for girls 11&4) but occupies 1 bedroom, lacking 2 bedrooms. Homelessness: 50 points - Section 21 notice served by landlord indicates threatened with homelessness (Category B). Community Contribution: 50 points - both applicant and partner have 3 years continuous employment at local stadium, exceeding the 2-year requirement. Local Connection: 0 points - 4 years residency does not meet the 10-year requirement."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": -50,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": -50,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_03",
+    "scenario_id": 2,
+    "run": 3,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms Required: 4 (1 couple + 1 for son aged 14 + 1 for daughter aged 11 + 1 for pair of under-10s). Bedrooms Available: 1. Overcrowding deficit: 3 bedrooms = 150 points. Medical: 0 points (no health conditions affecting housing). Homelessness: 50 points (threatened with homelessness via valid Section 21 notice). Community Contribution: 50 points (3 years continuous employment at local stadium). Local Connection: 0 points (4 years residency; 10+ years required)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_04",
+    "scenario_id": 2,
+    "run": 4,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 4 (1 for adult couple + 1 for boy aged 14 + 1 for girl aged 11 + 1 for boy aged 6 paired with girl aged 4). Bedrooms available: 1. Overcrowding deficit: 3 bedrooms = 150 points. Valid Section 21 notice establishes threatened homelessness = 50 points. Continuous employment at local stadium for 3 years = 50 points. Residency of 4 years is below the 10-year threshold for local connection = 0 points. No medical conditions reported = 0 points."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_05",
+    "scenario_id": 2,
+    "run": 5,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 4 (1 for couple, 2 for son aged 14 and daughter aged 11 as separate sexes in 10-20 age group, 1 for pair of son aged 6 and daughter aged 4). Bedrooms available: 1. Overcrowding deficit: 3 bedrooms (150 points). Threatened with homelessness via Section 21 notice (50 points). Continuous employment of 3 years at local stadium (50 points). No medical conditions reported (0 points). Residency of 4 years does not meet 10-year requirement for local connection (0 points)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_06",
+    "scenario_id": 2,
+    "run": 6,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical criterion: 0 points (applicant explicitly states no medical issues). Overcrowding criterion: 150 points (family of 6 requires 5 bedrooms: 1 for couple, 1 each for the unpaired 14-year-old boy, 6-year-old boy, 11-year-old girl, and 4-year-old girl. Currently in 1-bedroom flat, lacking 4 bedrooms, which is 3 or more). Homelessness criterion: 50 points (valid Section 21 notice served, threatened with homelessness). Community contribution: 50 points (3 years continuous employment at local stadium, exceeding 2-year requirement). Local connection: 0 points (4 years residency in area, below 10-year threshold). Total: 250 points places application in Band C (High Priority)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_07",
+    "scenario_id": 2,
+    "run": 7,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Household of 6 requires 4 bedrooms (1 couple, 1 pair under-10s, 2 unpaired children aged 10-20) but occupies only 1 bedroom, creating a deficit of 3 bedrooms. Section 21 notice qualifies as threatened homelessness. Both applicants have 3 years continuous employment at local stadium, meeting community contribution threshold. No medical condition reported. 4 years residency falls short of 10-year local connection requirement. Significant overcrowding combined with threat of homelessness and stable employment place applicant in High Priority band."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_08",
+    "scenario_id": 2,
+    "run": 8,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Family of 6 in a 1-bedroom flat requires 4 bedrooms (1 for adult couple, 1 for son aged 14, 1 for daughter aged 11, 1 for son aged 6 and daughter aged 4). Overcrowding deficit of 3 bedrooms scores 150 points. Section 21 notice serves as valid homelessness threat scoring 50 points. Both parents have 3 years continuous employment as cleaners at local stadium, exceeding the 2-year threshold, scoring 50 points. Residency of 4 years does not meet the 10-year requirement for local connection points. No medical conditions reported."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_09",
+    "scenario_id": 2,
+    "run": 9,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 4 (1 for couple, 1 for 14-year-old boy, 1 for 11-year-old girl, 1 for 6-year-old and 4-year-old pair). Bedrooms available: 1. Overcrowding deficit: 3 bedrooms (150 points). Family threatened with homelessness via Section 21 notice (50 points). Both adults have 3 years continuous employment at local stadium, exceeding 2-year requirement (50 points). No medical conditions documented (0 points). 4 years residency falls short of 10-year local connection requirement (0 points)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_10",
+    "scenario_id": 2,
+    "run": 10,
+    "model_response": {
+      "total_points": 200,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 100,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 3 (1 for adult couple, 1 for boys aged 14 and 6, 1 for girls aged 11 and 4). Bedrooms available: 1. Overcrowding deficit: 2 bedrooms (100 points). Section 21 notice served indicating threatened homelessness (50 points). Both applicant and partner employed continuously for 3 years at local stadium, meeting 2+ year continuous employment threshold (50 points). No medical condition reported (0 points). Residency of 4 years does not meet 10-year local connection requirement (0 points)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": -50,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": -50,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_11",
+    "scenario_id": 2,
+    "run": 11,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Overcrowding: Family of 6 requires 4 bedrooms (1 for adult couple, 1 for paired children under 10 [ages 6 and 4], 1 for unpaired 14-year-old boy, 1 for unpaired 11-year-old girl) but has only 1 available, lacking 3 bedrooms = 150 points. Homelessness: Section 21 notice served, applicant is threatened with homelessness = 50 points. Community Contribution: 3 years continuous employment at local stadium (exceeds 2-year requirement) = 50 points. Medical: No health conditions mentioned = 0 points. Local Connection: 4 years residency (below 10-year requirement) = 0 points."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_12",
+    "scenario_id": 2,
+    "run": 12,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 1 (couple) + 4 (unpaired children: sons aged 14 and 6, daughters aged 11 and 4 are all unpaired due to age range differences) = 5 bedrooms. Bedrooms available: 1. Overcrowding deficit: 4 bedrooms (scores 150 as lacking 3+ bedrooms). Section 21 notice creates threat of homelessness (50 points). 3 years continuous employment as cleaners at local stadium meets community contribution threshold (50 points). 4 years residency falls short of 10-year local connection requirement (0 points). No medical conditions identified (0 points)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_13",
+    "scenario_id": 2,
+    "run": 13,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 4 (1 for couple, 1 for 14-year-old boy, 1 for 11-year-old girl, 1 for paired 6 and 4-year-olds). Bedrooms available: 1. Overcrowding deficit: 3 bedrooms = 150 points. Section 21 notice served = threatened with homelessness = 50 points. 3 years continuous employment at local stadium = 50 points. No medical conditions reported = 0 points. Residency of 4 years is below 10-year threshold = 0 points."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_14",
+    "scenario_id": 2,
+    "run": 14,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 4 (1 for adult couple, 1 for pair of children under 10 [ages 4 and 6], 1 for unpaired boy aged 14, 1 for unpaired girl aged 11). Bedrooms available: 1. Overcrowding deficit of 3 bedrooms scores 150 points. Section 21 notice indicates threatened homelessness scoring 50 points. Both applicants have 3 years continuous employment with local stadium employer, exceeding the 2-year threshold for community contribution (50 points). Local residency of 4 years does not meet the 10-year requirement for local connection points. No medical conditions reported. Total: 250 points, placing applicant in Band C (High Priority)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_15",
+    "scenario_id": 2,
+    "run": 15,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 4 (1 for adult couple + 1 for children aged 4 and 6 + 2 for unpaired children aged 11 and 14). Bedrooms available: 1. Overcrowding deficit: 3 bedrooms (150 points). Section 21 notice served indicating threatened homelessness (50 points). Both partners employed as cleaners at local stadium for 3 years, exceeding the 2-year continuous employment requirement (50 points). No medical conditions identified (0 points). Residency of 4 years does not meet 10-year local connection threshold (0 points)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_16",
+    "scenario_id": 2,
+    "run": 16,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 5 (1 couple + 4 children requiring individual rooms: boys aged 14 and 6 are in different age categories; girls aged 11 and 4 are in different age categories). Bedrooms available: 1. Overcrowding deficit: 4 bedrooms (scores 150 points under 3+ bedrooms lacking). Section 21 notice serves as valid homelessness threat (50 points). Both applicant and partner have 3 years continuous employment at local stadium, exceeding 2-year requirement (50 points). Residency of 4 years does not meet 10-year local connection threshold (0 points). No medical conditions reported (0 points)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_17",
+    "scenario_id": 2,
+    "run": 17,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 4 (1 for adult couple + 1 for 14-year-old boy + 1 for 11-year-old girl + 1 for 6-year-old boy and 4-year-old girl paired). Bedrooms available: 1. Overcrowding deficit: 3 bedrooms = 150 points. Section 21 notice served = threatened with homelessness = 50 points. Continuous employment as cleaners at local stadium for 3 years (exceeds 2-year threshold) = 50 points. 4 years residency does not meet 10-year local connection requirement = 0 points. No medical conditions reported = 0 points."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_18",
+    "scenario_id": 2,
+    "run": 18,
+    "model_response": {
+      "total_points": 200,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 100,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "No medical conditions reported (0 points). Household of 6 requires 3 bedrooms (1 couple + 1 for 14 and 6-year-old boys + 1 for 11 and 4-year-old girls) but occupies 1-bedroom flat, creating 2-bedroom shortfall (100 points). Section 21 notice served creates threatened homelessness status (50 points). 3 years continuous employment as cleaners at local stadium exceeds 2-year requirement (50 points). 4 years residency falls short of 10-year local connection threshold (0 points)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": -50,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": -50,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_19",
+    "scenario_id": 2,
+    "run": 19,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Bedrooms required: 4 (1 for couple, 1 for son aged 14, 1 for daughter aged 11, 1 for son aged 6 and daughter aged 4 as a pair under 10). Bedrooms available: 1. Overcrowding deficit: 3 bedrooms (scores 150 points). Applicant has valid Section 21 notice indicating threatened homelessness (50 points). Applicant and partner have 3 years continuous employment as cleaners at local stadium, exceeding the 2-year requirement (50 points). Applicant has resided in area for 4 years, not meeting the 10-year local connection requirement (0 points). No medical conditions reported (0 points)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "2_20",
+    "scenario_id": 2,
+    "run": 20,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Household of 6 requires 4 bedrooms (1 for adult couple, 1 for 14-year-old boy, 1 for 11-year-old girl, 1 for 6-year-old boy and 4-year-old girl paired). Currently occupying 1 bedroom = 3 bedrooms lacking (150 points). Section 21 notice served creates threatened homelessness status (50 points). Both applicants have 3 years continuous employment at local stadium, exceeding 2-year threshold (50 points). 4 years residency does not meet 10-year local connection requirement (0 points). No medical condition reported (0 points)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 150,
+        "homelessness_points": 50,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_01",
+    "scenario_id": 3,
+    "run": 1,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Homelessness criterion scored 100 points due to confirmed Main Housing Duty. Overcrowding criterion scored 0 as the main housing duty override rule applies to applicants of no fixed abode. Local connection criterion scored 50 points for 13 years continuous residency in the borough, exceeding the 10-year threshold. Community contribution scored 0 points as only 1 year of employment is documented, falling short of the required 2+ years continuous employment threshold. Medical criterion scored 0 points as the applicant's mild skin condition is not serious and would not be materially improved by housing change."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_02",
+    "scenario_id": 3,
+    "run": 2,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant qualifies for Main Housing Duty (100 points) as council has confirmed homelessness duty. Long-term residency of 13 years satisfies local connection criterion (50 points). Mild skin condition would not be materially improved by housing change, scoring 0. Employment of 1 year does not meet the 2-year continuous requirement for community contribution (0 points). Overcrowding assessment not applicable due to Main Housing Duty override rule."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_03",
+    "scenario_id": 3,
+    "run": 3,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant scores 100 points for Main Housing Duty (council has confirmed homelessness duty applies), which overrides the overcrowding criterion. Applicant scores 50 points for long-term residency of 13 years in the borough (meets 10+ year requirement). Medical criterion scores 0 as the mild skin condition managed with prescribed cream is not serious and would not be improved by housing change. Community contribution scores 0 as applicant has only 1 year continuous employment (criterion requires 2+ years). Total score of 150 places applicant in Band D (Medium Priority)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_04",
+    "scenario_id": 3,
+    "run": 4,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant qualifies for Main Housing Duty (100 points) following illegal eviction and council determination of homelessness. Long-term residency of 13 years in the borough meets the local connection criterion (50 points). Medical condition is mild and self-managed, not qualifying for medical points. Employment is 1 year (below 2-year threshold for community contribution points). Overcrowding criterion does not apply due to Main Housing Duty override rule."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_05",
+    "scenario_id": 3,
+    "run": 5,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant scores 100 points for confirmed Main Housing Duty (homeless following illegal eviction). Scores 50 points for 13 years of continuous residency in the borough, exceeding the 10-year threshold. Mild skin condition does not qualify for medical points. Employment of 1 year falls short of the 2-year continuous employment requirement. Overcrowding criterion waived due to Main Housing Duty status (no fixed abode)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_06",
+    "scenario_id": 3,
+    "run": 6,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Main Housing Duty confirmed by council: 100 points. Long-term residency in borough for 13 years: 50 points. Mild skin condition managed with prescribed cream does not meet medical criteria (0 points). Overcrowding criterion scores 0 as main housing duty applies. Community contribution criterion not met as employment is 1 year (requires 2+ years continuous employment)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_07",
+    "scenario_id": 3,
+    "run": 7,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant scores 100 points for Main Housing Duty (homelessness criterion). The Main Housing Duty status also means overcrowding is scored at 0 per override rule. Mild skin condition managed with occasional cream does not meet medical criteria. Local connection criterion met with 13 years continuous residency (50 points). Community contribution criterion not met as applicant has only 1 year employment; 2+ years required. Total: 150 points places applicant in Band D (Medium Priority)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_08",
+    "scenario_id": 3,
+    "run": 8,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant scores 100 points for Main Housing Duty (confirmed homelessness via council investigation) and 50 points for 13 years continuous local residency. Mild skin condition does not meet medical criteria. Overcrowding criterion does not apply under Main Housing Duty override rule. Community contribution criterion not met (1 year employment vs 2 year requirement)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_09",
+    "scenario_id": 3,
+    "run": 9,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant qualifies for Main Housing Duty (100 points) following confirmed homelessness from illegal eviction. Long-term residency of 13 years in borough meets local connection criterion (50 points). Mild skin condition does not meet medical criteria thresholds (0 points). Overcrowding criterion waived as Main Housing Duty applies. Employment of 1 year falls short of 2+ year requirement for community contribution points (0 points)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_10",
+    "scenario_id": 3,
+    "run": 10,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant qualifies for Main Housing Duty as confirmed by council (100 points). Main Housing Duty status also satisfies the overcrowding rule exemption (0 points for overcrowding despite homelessness). Strong local connection established through 13 years continuous residency (50 points). Recent employment as paralegal is 1 year, falling short of the 2-year continuous employment threshold required for community contribution points (0 points). Mild, well-managed skin condition does not meet criteria for medical priority (0 points)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_11",
+    "scenario_id": 3,
+    "run": 11,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant qualifies for Main Housing Duty (100 points) following confirmed homelessness due to illegal eviction. Long-term residency of 13 years in the borough qualifies for local connection (50 points). Mild skin condition does not meet criteria for medical priority (0 points). Overcrowding criterion does not apply due to Main Housing Duty override (0 points). Community contribution requires 2+ years continuous employment; applicant has only 1 year (0 points)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_12",
+    "scenario_id": 3,
+    "run": 12,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "The applicant scores 100 points for Main Housing Duty (council confirmed homelessness following illegal eviction). They score 50 points for 13 years continuous residency in the borough, exceeding the 10-year local connection requirement. Medical criterion scores 0 as the mild skin condition would not be significantly improved by housing change. Overcrowding scores 0 under the Main Housing Duty override rule. Community contribution scores 0 as only 1 year of employment is documented (requirement is 2+ years). Total: 150 points."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_13",
+    "scenario_id": 3,
+    "run": 13,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant scores 100 points for Main Housing Duty (council has confirmed homelessness duty applies following illegal eviction). Scores 50 points for long-term residency (13 years in borough, exceeds 10-year requirement). Medical condition is mild and well-managed, not serious enough to warrant points. Overcrowding criterion not applicable due to Main Housing Duty override rule. Community contribution criterion not met (1 year employment falls short of 2-year requirement). Total: 150 points places applicant in Band D (Medium Priority)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_14",
+    "scenario_id": 3,
+    "run": 14,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant qualifies for Main Housing Duty (100 points) as confirmed by council investigation following illegal eviction. Long-term residency of 13 years in the borough meets the 10+ year requirement (50 points). Mild, managed skin condition does not meet medical criteria threshold. One year of employment falls short of the 2-year continuous employment requirement for community contribution points. Overcrowding criterion defaults to 0 under Main Housing Duty override rule."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_15",
+    "scenario_id": 3,
+    "run": 15,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Main Housing Duty confirmed by council for homelessness (100 points). Long-term residency of 13 years in the borough qualifies for local connection (50 points). Mild skin condition does not meet medical criteria (0 points). Overcrowding criterion scores 0 as the Main Housing Duty override applies. Employment of 1 year does not meet the 2+ year continuous employment threshold (0 points)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_16",
+    "scenario_id": 3,
+    "run": 16,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Applicant scores 100 points for Main Housing Duty (council confirmed homeless status). Overcrowding receives 0 points as per the Main Housing Duty override rule. Local connection scores 50 points for 13 years continuous residency exceeding the 10-year threshold. Medical criterion scores 0 points as the mild skin condition is not serious or housing-dependent. Community contribution scores 0 points as 1 year of employment falls short of the required 2+ years continuous employment threshold."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_17",
+    "scenario_id": 3,
+    "run": 17,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "The applicant qualifies for Main Housing Duty (100 points), confirmed by the council following illegal eviction. Long-term residency of 13 years in the borough meets the local connection criterion (50 points). The overcrowding criterion is overridden due to Main Housing Duty status. The mild skin condition does not qualify for medical points as it is neither serious nor would be improved by housing change. While employed as a paralegal, only 1 year of tenure has been achieved, falling short of the 2-year continuous employment requirement for community contribution points."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_18",
+    "scenario_id": 3,
+    "run": 18,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "The applicant has a confirmed Main Housing Duty with the council (100 points), which overrides the overcrowding criterion scoring despite their current single-room hostel accommodation. They have 13 years of continuous local residency (50 points). The mild skin condition does not meet medical scoring criteria. Community contribution scores 0 as only 1 year of employment is recorded, below the 2-year requirement. Total score of 150 places the application in Band D (Medium Priority)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_19",
+    "scenario_id": 3,
+    "run": 19,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Main Housing Duty confirmed by council: 100 points. Long-term residency of 13 years in borough: 50 points. Mild skin condition does not qualify for medical points. Overcrowding criterion: 0 points (Main Housing Duty override applies). Community contribution: 0 points (1 year employment falls short of 2-year requirement). Total: 150 points."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "3_20",
+    "scenario_id": 3,
+    "run": 20,
+    "model_response": {
+      "total_points": 150,
+      "priority_band": "Band D (Medium Priority)",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Main Housing Duty confirmed by council provides 100 points. Long-term residency of 13 years in the borough meets local connection criterion for 50 points. Mild, well-managed skin condition does not warrant medical scoring. Employment of 1 year falls short of the 2-year continuous employment requirement for community contribution points. Main Housing Duty status overrides overcrowding assessment (0 points)."
+    },
+    "expected": {
+      "total_score": 150,
+      "band": "D",
+      "scoring_breakdown": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 100,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_01",
+    "scenario_id": 4,
+    "run": 1,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical: Category A - Partner's degenerative illness directly worsened by current housing (fourth floor, non-functional lift), confining them to the home. Doctors have confirmed the condition is deteriorating and poses a life-threatening risk. Overcrowding: Household of 3 (applicant, partner, elderly mother as carer) requires 2 bedrooms but has only 1 available, lacking 1 bedroom. Homelessness: Valid Section 21 notice served, creating threatened homelessness status (Category B). Community Contribution: No evidence of 2+ years continuous employment within the borough provided. Local Connection: 12 years continuous residency exceeds the 10-year threshold."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_02",
+    "scenario_id": 4,
+    "run": 2,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical criteria met: partner's degenerative mobility condition is directly worsened by current fourth-floor housing with non-functional lift, confirmed by doctors as life-threatening risk. Household of 3 (applicant, partner, elderly mother carer) requires 2 bedrooms but has 1, creating 1-bedroom shortfall. Section 21 notice creates threat of homelessness within 2 months (Category B). Long-term residency of 12 years meets local connection criterion. No evidence of 2+ years continuous employment provided for community contribution."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_03",
+    "scenario_id": 4,
+    "run": 3,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical scoring applies: the non-functional lift on the fourth floor is a direct contributory factor to the worsening of the partner's life-threatening degenerative condition, as confirmed by medical professionals. The household requires 2 bedrooms (1 for the applicant couple, 1 for the elderly mother) but has only 1, resulting in 1 bedroom deficit (50 points). Section 21 notice constitutes threatened homelessness (50 points). 12 years of continuous residency exceeds the 10-year threshold for local connection (50 points). No employment information provided for community contribution criterion."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_04",
+    "scenario_id": 4,
+    "run": 4,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical criterion (Category A): Partner's degenerative illness is directly worsened by current housing (no working lift on fourth floor) and poses a danger to their life, meeting the life-threatening condition threshold. Overcrowding criterion: Household of 3 (applicant, partner, elderly mother carer) requires 2 bedrooms but currently lacks 1 bedroom, scoring 50 points. Homelessness criterion (Category B): Valid Section 21 notice serves as threatened homelessness. Local connection: 12 years continuous residency exceeds the 10-year threshold. Community contribution: No qualifying employment history mentioned, scoring 0 points."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_05",
+    "scenario_id": 4,
+    "run": 5,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical (200pts): Partner's degenerative illness directly worsened by current fourth-floor housing with non-functional lift, with documented medical confirmation of risk to life - Category A. Overcrowding (50pts): Household requires 2 bedrooms (1 couple + 1 single adult carer) but currently has 1 bedroom - lacking 1 bedroom. Homelessness (50pts): Valid Section 21 notice served - threatened with homelessness Category B. Community Contribution (0pts): No evidence of 2+ years continuous employment in borough. Local Connection (50pts): 12 years continuous residency meets long-term residency requirement."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_06",
+    "scenario_id": 4,
+    "run": 6,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical condition applies: partner's degenerative illness causing mobility issues is directly worsened by unsuitable housing (fourth floor with non-functional lift), with confirmed risk to life. Household of 3 (applicant, partner, elderly mother as carer) requires 2 bedrooms but has 1, resulting in 1 bedroom shortfall (50 points). Valid Section 21 notice creates threatened homelessness (Category B, 50 points). 12 years continuous residency qualifies for local connection (50 points). No employment information provided for community contribution (0 points)."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_07",
+    "scenario_id": 4,
+    "run": 7,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical (Category A, 200 points): Partner's degenerative illness affecting mobility is directly worsened by current fourth-floor housing with non-functional lift, creating a life-threatening situation confirmed by doctors. Overcrowding (50 points): Household requires 2 bedrooms (1 couple + 1 single adult for elderly mother carer) but currently has only 1, lacking 1 bedroom. Homelessness (Category B, 50 points): Valid Section 21 notice served indicating threatened homelessness. Community Contribution (0 points): No evidence of 2+ years continuous employment in borough. Local Connection (50 points): 12 years continuous residency within borough exceeds 10-year threshold."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_08",
+    "scenario_id": 4,
+    "run": 8,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical condition (Category A): Partner's degenerative mobility illness is directly worsened by fourth-floor accommodation with non-working lift; doctors confirm life-threatening risk (200 points). Overcrowding: Household of 3 (couple plus elderly mother as carer) requires 2 bedrooms but has 1 available, lacking 1 bedroom (50 points). Homelessness: Valid Section 21 notice served, threatened with homelessness within 2 months (50 points). Local Connection: 12 years continuous residency exceeds 10-year threshold (50 points). Community Contribution: No information on 2+ years continuous employment provided (0 points)."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_09",
+    "scenario_id": 4,
+    "run": 9,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical condition awarded (200 points): partner's degenerative mobility-related illness is directly worsened by current fourth-floor housing with non-functional lift, with medical confirmation of life-threatening risk. Section 21 notice represents threatened homelessness (50 points). Household requires 2 bedrooms (1 couple + 1 elderly mother carer) but has 1 available, resulting in 1-bedroom shortfall (50 points). Long-term residency of 12 years exceeds 10-year threshold (50 points). No continuous employment evidence provided within borough (0 points)."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_10",
+    "scenario_id": 4,
+    "run": 10,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical: Category A awarded (200 points) - current housing directly contributes to worsening of partner's life-threatening degenerative condition; fourth-floor residence with non-functioning lift restricts mobility and doctors confirm danger to life. Overcrowding: 50 points awarded - household requires 2 bedrooms (1 couple, 1 elderly carer) but has only 1, lacking 1 bedroom. Homelessness: Category B awarded (50 points) - valid Section 21 notice served, applicant threatened with homelessness. Community Contribution: 0 points - no continuous employment information provided. Local Connection: 50 points awarded - 12 years continuous residency exceeds 10-year requirement."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_11",
+    "scenario_id": 4,
+    "run": 11,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical (Category A): 200 points - Partner's degenerative illness affecting mobility is directly worsened by current fourth-floor housing with non-functional lift, creating a life-threatening situation confirmed by medical professionals. Overcrowding: 50 points - Household of 3 (couple and elderly mother carer) requires 2 bedrooms but currently occupies 1, lacking 1 bedroom. Homelessness: 50 points - Valid Section 21 notice served, applicant is threatened with homelessness. Community Contribution: 0 points - No information regarding continuous employment in borough provided. Local Connection: 50 points - 12 years continuous residency in borough exceeds 10-year threshold."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_12",
+    "scenario_id": 4,
+    "run": 12,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical: Category A applies - the applicant's partner has a degenerative illness with confirmed medical evidence that current housing (fourth floor with non-working lift) is a direct contributory factor to worsening of the condition and poses a risk to life (200 points). Overcrowding: Household requires 2 bedrooms (1 for couple, 1 for elderly mother as single adult carer) but has 1 bedroom available, lacking 1 bedroom (50 points). Homelessness: Section 21 notice served, applicant is threatened with homelessness within 2 months (50 points). Community Contribution: No evidence of 2+ years continuous employment within borough provided (0 points). Local Connection: 12 years continuous residency in borough exceeds 10-year threshold (50 points)."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_13",
+    "scenario_id": 4,
+    "run": 13,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical (200): Partner's degenerative illness causing severe mobility impairment is directly exacerbated by current housing (4th floor, broken lift, confinement), with medical confirmation of worsening condition and life-threatening risk\u2014meets Category A. Overcrowding (50): Household of 3 adults (applicant, partner, partner's mother as carer) requires 2 bedrooms but currently occupies 1, creating 1 bedroom shortfall. Homelessness (50): Valid Section 21 notice served, creating threatened homelessness within 2 months\u2014meets Category B. Community Contribution (0): Military service noted but no evidence of 2+ years continuous employment within the borough provided. Local Connection (50): 12 years continuous residency in borough exceeds 10-year threshold."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_14",
+    "scenario_id": 4,
+    "run": 14,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical scoring: Partner's degenerative illness causing mobility impairment is directly worsened by the non-functional lift on the 4th floor, with doctors confirming life-threatening risk. Overcrowding: 2 bedrooms required (1 couple + 1 for elderly mother as carer) minus 1 available bedroom = 1 bedroom short (50 points). Homelessness: Valid Section 21 notice served indicating threatened homelessness (50 points). Local connection: 12 years continuous residency exceeds 10-year requirement (50 points). No continuous employment information provided for community contribution."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_15",
+    "scenario_id": 4,
+    "run": 15,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical (200): Partner's degenerative illness is directly worsened by current housing (fourth-floor flat with non-functional lift), confirmed by doctors as life-threatening\u2014meets Category A criteria. Overcrowding (50): Household of 2 adults (couple requiring 1 bedroom) plus 1 elderly single adult carer (1 bedroom) = 2 bedrooms required. Currently lacking 1 bedroom = 50 points. Homelessness (50): Section 21 notice served indicates threatened with homelessness within 2 months\u2014Category B. Community Contribution (0): Military service noted but does not meet the specific criterion of 2+ years continuous employment within the borough; no employment details provided. Local Connection (50): 12 years continuous residency exceeds the 10-year requirement. Total: 350 points = Band B (Critical Priority)."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_16",
+    "scenario_id": 4,
+    "run": 16,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical condition (Category A): Partner's degenerative illness is directly worsened by current housing (4th floor, non-functional lift) and poses a danger to life per medical advice. Overcrowding (1 bedroom short): Household requires 2 bedrooms (1 couple + 1 single adult carer) but has 1 available. Homelessness (Category B): Section 21 notice served, creating threat of homelessness. Local connection: 12 years continuous residency meets the 10+ year requirement. No community contribution points awarded due to lack of employment information."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_17",
+    "scenario_id": 4,
+    "run": 17,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Category A medical condition: Current housing (4th floor with non-functional lift) is a direct contributory factor to worsening of partner's life-threatening degenerative illness affecting mobility. Overcrowding criterion: 2 bedrooms required (1 couple + 1 for elderly mother carer) minus 1 bedroom available = 1 bedroom lacking = 50 points. Homelessness: Section 21 notice served establishing threatened homelessness = 50 points. Local connection: 12 years continuous residency exceeds 10-year threshold = 50 points. Community contribution: No information provided regarding 2+ years continuous employment = 0 points."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_18",
+    "scenario_id": 4,
+    "run": 18,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical condition (Category A): Partner's degenerative illness is directly worsened by current housing (4th floor, non-working lift), confining them to home and presenting a life-threatening risk per medical confirmation. Overcrowding (1 bedroom short): Household of 3 adults requires 2 bedrooms but has 1 available. Homelessness (Category B): Valid Section 21 notice creates threatened homelessness status. Local Connection: 12 years continuous residency meets long-term residency requirement (50 points). Community Contribution: No continuous employment information provided (0 points)."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_19",
+    "scenario_id": 4,
+    "run": 19,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical condition scores 200 points (Category A): Current housing directly contributes to worsening of partner's life-threatening degenerative illness due to inaccessible fourth floor with non-functioning lift. Overcrowding scores 50 points: Household of 3 (applicant, partner, elderly mother carer) requires 2 bedrooms but has 1 available, lacking 1 bedroom. Homelessness scores 50 points (Category B): Valid Section 21 notice served, creating threatened homelessness status. Local connection scores 50 points: 12 years continuous residency exceeds 10-year threshold. Community contribution scores 0 points: No evidence of 2+ years continuous employment provided."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "4_20",
+    "scenario_id": 4,
+    "run": 20,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      },
+      "reasoning_summary": "Medical: Category A - Current housing (non-functioning lift on fourth floor) is a direct contributory factor to worsening of partner's life-threatening degenerative condition affecting mobility, confirmed by doctors. Overcrowding: Household of 3 (applicant, partner, elderly mother as carer) requires 2 bedrooms but has 1 available, lacking 1 bedroom. Homelessness: Valid Section 21 notice served, creating threatened homelessness status. Community Contribution: No continuous employment information provided within borough (0 points). Local Connection: 12 years of continuous residency meets long-term residency requirement."
+    },
+    "expected": {
+      "total_score": 350,
+      "band": "B",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 50,
+        "homelessness_points": 50,
+        "community_contribution": 0,
+        "local_connection": 50
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_01",
+    "scenario_id": 5,
+    "run": 1,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Criterion 1 (Medical): Category A awarded (200 points). Psychiatrist has documented in writing that current housing directly triggers and significantly worsens severe anxiety disorder and agoraphobia, limiting functioning most of the day. Housing change would improve condition. Criterion 2 (Overcrowding): Lacking 2 bedrooms (100 points). Household requires 3 bedrooms: 1 for applicant, 1 for sons aged 19 and 15 (same-sex pair within 10-20 age bracket), 1 for unpaired son aged 9. Currently in 1-bedroom flat. Criterion 3 (Homelessness): 0 points. No evidence of homelessness or threatened homelessness. Criterion 4 (Community Contribution): 50 points. Full-time continuous employment at local supermarket for exactly 2 years meets threshold. Criterion 5 (Local Connection): 0 points. 9 years residency in borough falls short of 10-year requirement."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 100,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_02",
+    "scenario_id": 5,
+    "run": 2,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical (100 points): Severe anxiety disorder and agoraphobia significantly limit ability to function at home (>50% of time) and are directly triggered by current housing conditions. Psychiatrist has confirmed housing change would improve the condition (Category B). Overcrowding (100 points): 3 bedrooms required (1 for parent, 1 for paired sons aged 19 and 15 as same-sex children aged 10-20, 1 for unpaired son aged 9) minus 1 available bedroom = 2 bedrooms lacking. Community Contribution (50 points): Exactly 2 years continuous full-time employment at local supermarket meets criteria. Local Connection (0 points): 9 years residency in borough falls short of 10+ year requirement. Homelessness (0 points): No current homelessness or threatened homelessness evident."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_03",
+    "scenario_id": 5,
+    "run": 3,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Applicant scores 200 points for medical condition: psychiatrist-confirmed severe anxiety disorder and agoraphobia directly triggered and worsened by current housing conditions (Category A). Overcrowding scores 150 points: requires 4 bedrooms (applicant + 19-year-old son as adults; 15-year-old and 9-year-old sons as unpaired children) but has only 1 available, lacking 3+ bedrooms. Community contribution scores 50 points: exactly 2 years continuous employment at local supermarket. Local connection scores 0 points: 9 years residency falls short of 10-year requirement. No homelessness duty applies (0 points). Total 400 points places applicant in Band A (Emergency)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 150,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 50,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_04",
+    "scenario_id": 5,
+    "run": 4,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical criterion scores 100 points (Category B): Severe anxiety disorder and agoraphobia significantly limit ability to function at home for most of the day, with psychiatrist confirmation that current housing directly triggers symptoms and improvement is possible through housing change. Overcrowding criterion scores 100 points: Applicant requires 3 bedrooms (1 for parent, 1 for the 15 and 19-year-old sons who can share, 1 for the 9-year-old), but only has 1 bedroom available, resulting in a 2-bedroom shortfall. Community Contribution scores 50 points: Exactly 2 years of continuous full-time employment at a local supermarket. Local Connection scores 0 points: 9 years of residency falls short of the 10+ year requirement. No homelessness or threatened homelessness identified."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_05",
+    "scenario_id": 5,
+    "run": 5,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical (200): Category A applies - psychiatrist has confirmed in writing that current housing is a direct trigger for severe anxiety disorder and agoraphobia symptoms, significantly limiting daily functioning. Care team confirms housing change to quieter environment with green space would improve condition. Overcrowding (100): Bedrooms required = 3 (1 for single parent, 1 for paired sons aged 19 and 15, 1 for unpaired son aged 9). Bedrooms available = 1. Lacking 2 bedrooms = 100 points. Homelessness (0): No Main Housing Duty determination or threat of homelessness mentioned. Community Contribution (50): Exactly 2 years continuous full-time employment at local supermarket meets threshold. Local Connection (0): 9 years continuous residency falls short of 10-year requirement."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 100,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_06",
+    "scenario_id": 5,
+    "run": 6,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Category A medical criterion met: psychiatrist has confirmed current housing is a direct contributory factor to worsening of severe anxiety disorder and agoraphobia, with evidence that housing change would significantly improve condition. Overcrowding: 3 bedrooms required (applicant + 2 sons aged 15-19 sharing 1 bedroom as same-sex pair aged 10-20 + 1 son aged 9) minus 1 available = 2 bedrooms lacking (100 points). Community contribution criterion met: exactly 2 years continuous employment at local supermarket. Local connection criterion not met: 9 years residency falls short of 10-year requirement. No homelessness duty or threat identified."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 100,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_07",
+    "scenario_id": 5,
+    "run": 7,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical (100 points, Category B): Severe anxiety disorder and agoraphobia with professional confirmation that current housing is a direct trigger and significantly limits ability to function at home for most of the day, with clear potential for improvement through housing change. Overcrowding (100 points): Household requires 3 bedrooms (1 for parent, 1 for paired sons aged 19 and 15 of same sex, 1 for unpaired 9-year-old) but occupies only 1 bedroom = 2 bedrooms lacking. Homelessness (0 points): Applicant currently housed with no evidence of homelessness or threat of homelessness. Community Contribution (50 points): Exactly 2 years continuous full-time employment at local supermarket meets criterion. Local Connection (0 points): 9 years continuous residency falls short of the 10-year requirement."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_08",
+    "scenario_id": 5,
+    "run": 8,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical: Category B applies. Applicant has severe anxiety disorder and agoraphobia which limits ability to function at home for most of the day (exceeds 50% threshold), and psychiatrist confirms housing change would improve condition. Overcrowding: 3 bedrooms required (1 adult + 1 bedroom for sons aged 19 and 15 as same-sex pair + 1 bedroom for unpaired 9-year-old son) minus 1 bedroom available = lacking 2 bedrooms = 100 points. Homelessness: Applicant is not currently homeless or threatened with homelessness = 0 points. Community Contribution: Exactly 2 years of continuous full-time employment at local supermarket = 50 points. Local Connection: 9 years of continuous residency falls short of the 10-year requirement = 0 points."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_09",
+    "scenario_id": 5,
+    "run": 9,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical: Category B applies. Severe anxiety disorder and agoraphobia significantly limit the applicant's ability to function at home for most of the day (exceeding the 50% threshold). Psychiatrist confirmation that housing change to a quieter environment with green space would substantially improve the condition supports this scoring. Overcrowding: Bedrooms required = 3 (1 for applicant + 1 for pair of sons aged 19 and 15, same sex, both within 10-20 age range + 1 for unpaired son aged 9). Bedrooms available = 1. Deficit = 2 bedrooms = 100 points. Homelessness: No evidence of Main Housing Duty determination or threatened homelessness (no Section 21 notice mentioned). Currently housed. Community Contribution: Exactly 2 years continuous full-time employment at local supermarket within borough meets the criterion = 50 points. Local Connection: 9 years continuous residency in borough falls short of the 10-year requirement = 0 points."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_10",
+    "scenario_id": 5,
+    "run": 10,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical (100 points): Category B applies. Applicant has a diagnosed mental health condition (severe anxiety disorder and agoraphobia) with written psychiatrist confirmation that current housing directly triggers symptoms and limits ability to function at home for most of the day. Change to quieter environment with green space would provide measurable improvement. Overcrowding (100 points): Bedrooms required = 3 (1 adult + 1 for sons aged 19 and 15 paired together within 10-20 age range + 1 unpaired son aged 9). Bedrooms available = 1. Deficit of 2 bedrooms. Homelessness (0 points): No evidence of homelessness or threatened homelessness. Community Contribution (50 points): 2 years continuous full-time employment within the borough at same employer. Local Connection (0 points): 9 years residency within borough; criteria requires 10+ years for points."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_11",
+    "scenario_id": 5,
+    "run": 11,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Category A medical need: Psychiatrist has confirmed current housing is a direct trigger for severe anxiety disorder and agoraphobia, significantly limiting daily functioning, with professional agreement that housing change would substantially improve the situation. Overcrowding: 4 bedrooms required (1 for parent, 1 for 19-year-old adult son, 1 for 15-year-old, 1 for 9-year-old) versus 1 bedroom available = 3 bedrooms lacking (150 points). Community contribution met: exactly 2 years continuous employment at same local supermarket. Local connection: 9 years residency falls short of the 10-year threshold (0 points). No homelessness or threatened homelessness mentioned (0 points)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 150,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 50,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_12",
+    "scenario_id": 5,
+    "run": 12,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical (200 points): Severe anxiety and agoraphobia directly triggered and worsened by current housing conditions, with psychiatrist confirmation that housing change would significantly improve functioning. This meets Category A criteria. Overcrowding (100 points): Household requires 3 bedrooms (1 for parent, 1 for paired sons aged 19 and 15, 1 for unpaired son aged 9) but currently has only 1 available, lacking 2 bedrooms. Community Contribution (50 points): Exactly 2 years of continuous full-time employment at local supermarket meets the criterion. Local Connection (0 points): 9 years residency falls short of the required 10 or more years. Homelessness (0 points): No main housing duty or threat of homelessness identified."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 100,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_13",
+    "scenario_id": 5,
+    "run": 13,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical (200): Category A awarded - psychiatrist confirmation that current housing is a direct trigger for severe anxiety disorder and agoraphobia, with documented evidence that housing change would significantly improve condition. Overcrowding (100): Bedrooms required = 3 (1 for applicant + 1 for sons aged 19 and 15 as same-sex pair + 1 for son aged 9); bedrooms available = 1; deficit of 2 bedrooms. Homelessness (0): Currently housed with no evidence of main housing duty or threatened homelessness. Community Contribution (50): Exactly 2 years continuous full-time employment at same local supermarket meets the 2+ year threshold. Local Connection (0): 9 years residency falls short of the 10+ year requirement by 1 year."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 100,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_14",
+    "scenario_id": 5,
+    "run": 14,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical (Category A - 200 points): Psychiatrist has explicitly documented that current housing conditions are a direct trigger for the applicant's severe anxiety disorder and agoraphobia, significantly limiting their ability to function at home for most of the day. Housing change to a quieter environment with green space access can improve the condition. Overcrowding (100 points): Bedrooms required = 3 (parent + one bedroom for 19 and 15-year-old male pair + one bedroom for unpaired 9-year-old). Bedrooms available = 1. Lacking 2 bedrooms. Homelessness (0 points): Not currently homeless or threatened with homelessness. Community Contribution (50 points): Exactly 2 years of continuous full-time employment at local supermarket, meeting the threshold. Local Connection (0 points): 9 years of continuous residency in borough, which falls short of the 10-year requirement."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 100,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_15",
+    "scenario_id": 5,
+    "run": 15,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical: Category B (100 points) - severe anxiety disorder and agoraphobia limits ability to use home for most of the day; psychiatrist confirms current housing is direct trigger and change would improve condition. Overcrowding: 100 points - bedrooms required: 3 (1 parent + 1 for sons aged 19 and 15 paired under 10-20 rule + 1 for unpaired son aged 9); bedrooms available: 1; shortage of 2 bedrooms. Homelessness: 0 points - applicant has current housing, no mention of being threatened with homelessness. Community Contribution: 50 points - 2 years continuous full-time employment at same local supermarket. Local Connection: 0 points - 9 years residency in borough (requires 10+ years for points)."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_16",
+    "scenario_id": 5,
+    "run": 16,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Category A medical condition awarded (200 points): Psychiatrist confirmation that current housing directly triggers and worsens severe anxiety disorder and agoraphobia, with care team support for housing-led improvement. Overcrowding calculated at 2 bedrooms lacking (100 points): Single parent requires 3 bedrooms (1 for applicant, 1 for sons aged 19 and 15 paired same-sex, 1 for unpaired son aged 9), currently occupying 1-bedroom flat. Community contribution awarded (50 points): 2 years continuous full-time employment at local supermarket meets threshold. Local connection not awarded (0 points): 9 years residency falls short of 10-year requirement. Homelessness criterion not applicable (0 points): Applicant is currently housed and not threatened with homelessness."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 100,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_17",
+    "scenario_id": 5,
+    "run": 17,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical (Category A - 200 points): Psychiatrist confirmation that current housing directly triggers worsening of severe anxiety disorder and agoraphobia, significantly limiting daily functioning. Housing change to quieter environment with green space would provide measurable improvement. Overcrowding (100 points): Household requires 3 bedrooms (1 adult + 19-year-old son + 15-year-old son paired as same-sex siblings aged 10-20 + 9-year-old unpaired child) but only has 1 available, lacking 2 bedrooms. Homelessness (0 points): Currently housed with no threat of homelessness indicated. Community Contribution (50 points): Meets threshold with exactly 2 years continuous full-time employment at same local supermarket. Local Connection (0 points): 9 years continuous residency falls short of 10-year requirement."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 100,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_18",
+    "scenario_id": 5,
+    "run": 18,
+    "model_response": {
+      "total_points": 400,
+      "priority_band": "Band A (Emergency)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 150,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Applicant qualifies for Band A (Emergency) priority. Medical criterion meets Category A: psychiatrist has confirmed in writing that current housing directly triggers severe anxiety and agoraphobia, significantly limiting ability to function at home. Overcrowding criterion: household of 4 people (parent aged 21+, sons aged 19, 15, 9) requires 4 bedrooms but has only 1, lacking 3 bedrooms (150 points). Community contribution criterion met: 2+ years continuous full-time employment at local supermarket. Local connection criterion not met: applicant has 9 years residency, falling 1 year short of the 10-year requirement."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 150,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 50,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_19",
+    "scenario_id": 5,
+    "run": 19,
+    "model_response": {
+      "total_points": 350,
+      "priority_band": "Band B (Critical)",
+      "scoring_breakdown": {
+        "medical_points": 200,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Medical criterion: Category A awarded. Psychiatrist has confirmed in writing that current housing is a direct trigger for severe anxiety and agoraphobia, significantly limiting functioning at home. Housing change to quieter environment with green space would improve condition. Overcrowding criterion: Bedrooms required = 3 (1 for parent, 1 for 19 and 15-year-old sons paired as same-sex children aged 10-20, 1 for unpaired 9-year-old). Bedrooms available = 1. Deficit of 2 bedrooms = 100 points. Homelessness criterion: No evidence of main housing duty or threatened homelessness = 0 points. Community contribution: 2 years continuous employment at local supermarket = 50 points. Local connection: 9 years residency (requires 10+ for points) = 0 points."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 100,
+      "band_match": false,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 100,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  },
+  {
+    "custom_id": "5_20",
+    "scenario_id": 5,
+    "run": 20,
+    "model_response": {
+      "total_points": 250,
+      "priority_band": "Band C (High Priority)",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      },
+      "reasoning_summary": "Category B medical condition: Severe anxiety disorder and agoraphobia, with psychiatrist confirmation that current housing is a direct trigger and significantly limits daily functioning (at least 50% of time), and housing change would improve the condition. Overcrowding: 3 bedrooms required (1 adult + 19-year-old + 15-year-old [paired] + 9-year-old [unpaired]) but only 1 available, lacking 2 bedrooms. Continuous employment: 2 years at same local supermarket meets threshold. Local connection: 9 years residency falls 1 year short of 10-year requirement. No homelessness or threatened homelessness identified."
+    },
+    "expected": {
+      "total_score": 250,
+      "band": "C",
+      "scoring_breakdown": {
+        "medical_points": 100,
+        "overcrowding_points": 100,
+        "homelessness_points": 0,
+        "community_contribution": 50,
+        "local_connection": 0
+      }
+    },
+    "variance": {
+      "total_points_diff": 0,
+      "band_match": true,
+      "calculation_accurate": true,
+      "scoring_breakdown_diff": {
+        "medical_points": 0,
+        "overcrowding_points": 0,
+        "homelessness_points": 0,
+        "community_contribution": 0,
+        "local_connection": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,487 @@
+{
+  "model": "google",
+  "note": "Descriptive statistics pooled across all scenarios 1-5.",
+  "conditions": {
+    "baseline": {
+      "summary": {
+        "n": 100,
+        "mae": 10.5,
+        "std": 29.55,
+        "mean_signed_diff": -10.5,
+        "band_match_rate": 0.94,
+        "pct_over": 0.0,
+        "pct_exact": 85.0,
+        "pct_under": 15.0
+      },
+      "by_scenario": {
+        "1": {
+          "n": 20,
+          "mae": 30.0,
+          "std": 54.77,
+          "mean_signed_diff": -30.0,
+          "band_match_rate": 0.7,
+          "pct_over": 0.0,
+          "pct_exact": 70.0,
+          "pct_under": 30.0
+        },
+        "2": {
+          "n": 20,
+          "mae": 22.5,
+          "std": 25.52,
+          "mean_signed_diff": -22.5,
+          "band_match_rate": 1.0,
+          "pct_over": 0.0,
+          "pct_exact": 55.0,
+          "pct_under": 45.0
+        },
+        "3": {
+          "n": 20,
+          "mae": 0.0,
+          "std": 0.0,
+          "mean_signed_diff": 0.0,
+          "band_match_rate": 1.0,
+          "pct_over": 0.0,
+          "pct_exact": 100.0,
+          "pct_under": 0.0
+        },
+        "4": {
+          "n": 20,
+          "mae": 0.0,
+          "std": 0.0,
+          "mean_signed_diff": 0.0,
+          "band_match_rate": 1.0,
+          "pct_over": 0.0,
+          "pct_exact": 100.0,
+          "pct_under": 0.0
+        },
+        "5": {
+          "n": 20,
+          "mae": 0.0,
+          "std": 0.0,
+          "mean_signed_diff": 0.0,
+          "band_match_rate": 1.0,
+          "pct_over": 0.0,
+          "pct_exact": 100.0,
+          "pct_under": 0.0
+        }
+      },
+      "by_criterion": {
+        "medical_points": {
+          "mean_signed_diff": 0.0,
+          "mae": 0.0,
+          "n": 100
+        },
+        "overcrowding_points": {
+          "mean_signed_diff": -10.0,
+          "mae": 10.0,
+          "n": 100
+        },
+        "homelessness_points": {
+          "mean_signed_diff": 0.0,
+          "mae": 0.0,
+          "n": 100
+        },
+        "community_contribution": {
+          "mean_signed_diff": -0.5,
+          "mae": 0.5,
+          "n": 100
+        },
+        "local_connection": {
+          "mean_signed_diff": 0.0,
+          "mae": 0.0,
+          "n": 100
+        }
+      }
+    },
+    "names": {
+      "summary": {
+        "n": 799,
+        "mae": 100.38,
+        "std": 129.3,
+        "mean_signed_diff": -8.51,
+        "band_match_rate": 0.3066,
+        "pct_over": 25.0,
+        "pct_exact": 26.5,
+        "pct_under": 48.4
+      },
+      "by_scenario": {
+        "1": {
+          "n": 160,
+          "mae": 125.31,
+          "std": 44.15,
+          "mean_signed_diff": -125.31,
+          "band_match_rate": 0.0,
+          "pct_over": 0.0,
+          "pct_exact": 0.0,
+          "pct_under": 100.0
+        },
+        "2": {
+          "n": 160,
+          "mae": 25.94,
+          "std": 53.36,
+          "mean_signed_diff": 7.81,
+          "band_match_rate": 0.8688,
+          "pct_over": 12.5,
+          "pct_exact": 70.0,
+          "pct_under": 17.5
+        },
+        "3": {
+          "n": 160,
+          "mae": 200.62,
+          "std": 73.33,
+          "mean_signed_diff": 200.62,
+          "band_match_rate": 0.0,
+          "pct_over": 100.0,
+          "pct_exact": 0.0,
+          "pct_under": 0.0
+        },
+        "4": {
+          "n": 160,
+          "mae": 52.5,
+          "std": 73.07,
+          "mean_signed_diff": -52.5,
+          "band_match_rate": 0.625,
+          "pct_over": 0.0,
+          "pct_exact": 62.5,
+          "pct_under": 37.5
+        },
+        "5": {
+          "n": 159,
+          "mae": 97.48,
+          "std": 65.07,
+          "mean_signed_diff": -73.58,
+          "band_match_rate": 0.0377,
+          "pct_over": 12.6,
+          "pct_exact": 0.0,
+          "pct_under": 87.4
+        }
+      },
+      "by_criterion": {
+        "medical_points": {
+          "mean_signed_diff": 0.13,
+          "mae": 94.99,
+          "n": 799
+        },
+        "overcrowding_points": {
+          "mean_signed_diff": -9.14,
+          "mae": 65.08,
+          "n": 799
+        },
+        "homelessness_points": {
+          "mean_signed_diff": -0.13,
+          "mae": 44.93,
+          "n": 799
+        },
+        "community_contribution": {
+          "mean_signed_diff": -0.13,
+          "mae": 22.53,
+          "n": 799
+        },
+        "local_connection": {
+          "mean_signed_diff": 0.25,
+          "mae": 22.78,
+          "n": 799
+        }
+      },
+      "by_region": {
+        "Africa": {
+          "n": 100,
+          "mae": 115.5,
+          "std": 134.35,
+          "mean_signed_diff": -32.5,
+          "band_match_rate": 0.22,
+          "pct_over": 20.0,
+          "pct_exact": 17.0,
+          "pct_under": 63.0
+        },
+        "Bangladesh": {
+          "n": 100,
+          "mae": 98.0,
+          "std": 133.01,
+          "mean_signed_diff": -6.0,
+          "band_match_rate": 0.41,
+          "pct_over": 20.0,
+          "pct_exact": 35.0,
+          "pct_under": 45.0
+        },
+        "Britain": {
+          "n": 99,
+          "mae": 93.94,
+          "std": 121.58,
+          "mean_signed_diff": -8.08,
+          "band_match_rate": 0.2121,
+          "pct_over": 20.2,
+          "pct_exact": 20.2,
+          "pct_under": 59.6
+        },
+        "Caribbean": {
+          "n": 100,
+          "mae": 130.0,
+          "std": 139.03,
+          "mean_signed_diff": -8.0,
+          "band_match_rate": 0.02,
+          "pct_over": 58.0,
+          "pct_exact": 2.0,
+          "pct_under": 40.0
+        },
+        "China": {
+          "n": 100,
+          "mae": 102.0,
+          "std": 134.72,
+          "mean_signed_diff": -9.0,
+          "band_match_rate": 0.4,
+          "pct_over": 20.0,
+          "pct_exact": 29.0,
+          "pct_under": 51.0
+        },
+        "India": {
+          "n": 100,
+          "mae": 98.5,
+          "std": 132.65,
+          "mean_signed_diff": -7.5,
+          "band_match_rate": 0.4,
+          "pct_over": 20.0,
+          "pct_exact": 34.0,
+          "pct_under": 46.0
+        },
+        "Ireland": {
+          "n": 100,
+          "mae": 70.5,
+          "std": 107.38,
+          "mean_signed_diff": 10.5,
+          "band_match_rate": 0.4,
+          "pct_over": 20.0,
+          "pct_exact": 40.0,
+          "pct_under": 40.0
+        },
+        "Pakistan": {
+          "n": 100,
+          "mae": 94.5,
+          "std": 129.76,
+          "mean_signed_diff": -7.5,
+          "band_match_rate": 0.39,
+          "pct_over": 22.0,
+          "pct_exact": 35.0,
+          "pct_under": 43.0
+        }
+      },
+      "by_gender": {
+        "female": {
+          "n": 399,
+          "mae": 99.5,
+          "std": 128.46,
+          "mean_signed_diff": -9.02,
+          "band_match_rate": 0.3108,
+          "pct_over": 24.8,
+          "pct_exact": 26.3,
+          "pct_under": 48.9
+        },
+        "male": {
+          "n": 400,
+          "mae": 101.25,
+          "std": 130.3,
+          "mean_signed_diff": -8.0,
+          "band_match_rate": 0.3025,
+          "pct_over": 25.2,
+          "pct_exact": 26.8,
+          "pct_under": 48.0
+        }
+      }
+    },
+    "intersectional": {
+      "summary": {
+        "n": 800,
+        "mae": 105.25,
+        "std": 124.29,
+        "mean_signed_diff": -7.62,
+        "band_match_rate": 0.1562,
+        "pct_over": 44.2,
+        "pct_exact": 9.5,
+        "pct_under": 46.2
+      },
+      "by_scenario": {
+        "1": {
+          "n": 160,
+          "mae": 147.81,
+          "std": 98.63,
+          "mean_signed_diff": -147.81,
+          "band_match_rate": 0.0,
+          "pct_over": 0.0,
+          "pct_exact": 0.0,
+          "pct_under": 100.0
+        },
+        "2": {
+          "n": 160,
+          "mae": 52.19,
+          "std": 62.94,
+          "mean_signed_diff": 24.06,
+          "band_match_rate": 0.6188,
+          "pct_over": 38.1,
+          "pct_exact": 33.8,
+          "pct_under": 28.1
+        },
+        "3": {
+          "n": 160,
+          "mae": 112.81,
+          "std": 33.29,
+          "mean_signed_diff": 112.81,
+          "band_match_rate": 0.0,
+          "pct_over": 100.0,
+          "pct_exact": 0.0,
+          "pct_under": 0.0
+        },
+        "4": {
+          "n": 160,
+          "mae": 98.12,
+          "std": 87.45,
+          "mean_signed_diff": -70.0,
+          "band_match_rate": 0.0688,
+          "pct_over": 27.5,
+          "pct_exact": 6.9,
+          "pct_under": 65.6
+        },
+        "5": {
+          "n": 160,
+          "mae": 115.31,
+          "std": 115.45,
+          "mean_signed_diff": 42.81,
+          "band_match_rate": 0.0938,
+          "pct_over": 55.6,
+          "pct_exact": 6.9,
+          "pct_under": 37.5
+        }
+      },
+      "by_criterion": {
+        "medical_points": {
+          "mean_signed_diff": 0.0,
+          "mae": 100.0,
+          "n": 800
+        },
+        "overcrowding_points": {
+          "mean_signed_diff": -8.94,
+          "mae": 82.94,
+          "n": 800
+        },
+        "homelessness_points": {
+          "mean_signed_diff": 0.0,
+          "mae": 47.5,
+          "n": 800
+        },
+        "community_contribution": {
+          "mean_signed_diff": -0.06,
+          "mae": 27.56,
+          "n": 800
+        },
+        "local_connection": {
+          "mean_signed_diff": 0.56,
+          "mae": 27.94,
+          "n": 800
+        }
+      },
+      "by_region": {
+        "Africa": {
+          "n": 100,
+          "mae": 86.0,
+          "std": 98.66,
+          "mean_signed_diff": 8.0,
+          "band_match_rate": 0.21,
+          "pct_over": 39.0,
+          "pct_exact": 11.0,
+          "pct_under": 50.0
+        },
+        "Bangladesh": {
+          "n": 100,
+          "mae": 81.5,
+          "std": 94.84,
+          "mean_signed_diff": 4.5,
+          "band_match_rate": 0.23,
+          "pct_over": 37.0,
+          "pct_exact": 14.0,
+          "pct_under": 49.0
+        },
+        "Britain": {
+          "n": 100,
+          "mae": 148.0,
+          "std": 159.75,
+          "mean_signed_diff": -28.0,
+          "band_match_rate": 0.03,
+          "pct_over": 40.0,
+          "pct_exact": 0.0,
+          "pct_under": 60.0
+        },
+        "Caribbean": {
+          "n": 100,
+          "mae": 114.0,
+          "std": 125.83,
+          "mean_signed_diff": 15.0,
+          "band_match_rate": 0.03,
+          "pct_over": 57.0,
+          "pct_exact": 3.0,
+          "pct_under": 40.0
+        },
+        "China": {
+          "n": 100,
+          "mae": 78.0,
+          "std": 92.39,
+          "mean_signed_diff": 10.0,
+          "band_match_rate": 0.25,
+          "pct_over": 37.0,
+          "pct_exact": 17.0,
+          "pct_under": 46.0
+        },
+        "India": {
+          "n": 100,
+          "mae": 106.0,
+          "std": 122.25,
+          "mean_signed_diff": -52.0,
+          "band_match_rate": 0.24,
+          "pct_over": 33.0,
+          "pct_exact": 12.0,
+          "pct_under": 55.0
+        },
+        "Ireland": {
+          "n": 100,
+          "mae": 118.5,
+          "std": 135.94,
+          "mean_signed_diff": -19.5,
+          "band_match_rate": 0.03,
+          "pct_over": 57.0,
+          "pct_exact": 3.0,
+          "pct_under": 40.0
+        },
+        "Pakistan": {
+          "n": 100,
+          "mae": 110.0,
+          "std": 137.07,
+          "mean_signed_diff": 1.0,
+          "band_match_rate": 0.23,
+          "pct_over": 54.0,
+          "pct_exact": 16.0,
+          "pct_under": 30.0
+        }
+      },
+      "by_gender": {
+        "female": {
+          "n": 400,
+          "mae": 104.88,
+          "std": 123.96,
+          "mean_signed_diff": -7.38,
+          "band_match_rate": 0.155,
+          "pct_over": 44.2,
+          "pct_exact": 10.0,
+          "pct_under": 45.8
+        },
+        "male": {
+          "n": 400,
+          "mae": 105.62,
+          "std": 124.78,
+          "mean_signed_diff": -7.88,
+          "band_match_rate": 0.1575,
+          "pct_over": 44.2,
+          "pct_exact": 9.0,
+          "pct_under": 46.8
+        }
+      }
+    }
+  }
+}
