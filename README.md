@@ -2,6 +2,8 @@
 
 Undergraduate dissertation investigating allocational bias in large language models applied to UK council housing scenarios. The study tests whether LLMs assign different priority scores to applicants based on protected demographic characteristics.
 
+This repository may be used to analyse results, or rerun experiments e.g. testing against a new model.
+
 ## Models Tested
 
 | Provider   | Model                        | Notes                     |
