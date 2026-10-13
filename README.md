@@ -4,25 +4,6 @@ Undergraduate dissertation investigating allocational bias in large language mod
 
 This repository may be used to analyse results, or rerun experiments e.g. testing against a new model.
 
-## Models Tested
-
-| Provider   | Model                        | Notes                     |
-|------------|------------------------------|---------------------------|
-| Anthropic  | `claude-haiku-4-5-20251001`  | Extended thinking enabled |
-| OpenAI     | `gpt-5.4-mini`               | Low-effort reasoning      |
-| Google     | `gemini-3-flash-preview`     | Low thinking level        |
-| Together   | `openai/gpt-oss-120b`        | Open-source baseline      |
-
-## Prompt Design
-
-Three prompt variants test different channels of demographic signal:
-
-- **Baseline** — no demographic information (control)
-- **Intersectional** — explicit demographic attributes in the prompt
-- **Names** — implicit demographics via culturally associated first names
-
-Demographic dimensions covered: gender identity, ethnicity, religion, age, education, employment, marital status, and location (33 UK cities).
-
 ## Repository Structure
 
 ```
@@ -52,6 +33,15 @@ results_by_scenario_region.csv
 
 ## Pipeline
 
+### Dataset Generation
+
+<img width="1203" height="353" alt="project flow1" src="https://github.com/user-attachments/assets/3761bc5e-721b-418d-af07-99fdc7375b4c" />
+
+### Dataset Processing
+
+<img width="687" height="353" alt="project flow2" src="https://github.com/user-attachments/assets/b91c74e0-91a2-4c40-b4e1-014b95009446" />
+
+
 ```
 1. Generate prompts
    python prompt-generation/allocational/generate_allocational_prompts.py
@@ -73,6 +63,22 @@ results_by_scenario_region.csv
 6. Analyse
    python analysis.py
 ```
+## Models Tested
+
+| Provider   | Model                        | Notes                     |
+|------------|------------------------------|---------------------------|
+| Anthropic  | `claude-haiku-4-5-20251001`  | Extended thinking enabled |
+| OpenAI     | `gpt-5.4-mini`               | Low-effort reasoning      |
+| Google     | `gemini-3-flash-preview`     | Low thinking level        |
+| Together   | `openai/gpt-oss-120b`        | Open-source baseline      |
+
+## Prompt Design
+
+Three prompt variants test different channels of demographic signal:
+
+- **Baseline** — no demographic information (control)
+- **Intersectional** — explicit demographic attributes in the prompt
+- **Names** — implicit demographics via culturally associated first names
 
 ## Setup
 
