@@ -96,3 +96,17 @@ OPENAI_API_KEY
 GOOGLE_API_KEY
 TOGETHER_API_KEY
 ```
+
+## License
+
+The code in this repository is licensed under the [MIT License](LICENSE).
+
+The written dissertation text, figures, and documentation are licensed under the 
+[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/) License.
+
+
+
+
+
+
+
